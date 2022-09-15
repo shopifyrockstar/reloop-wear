@@ -1,0 +1,54 @@
+<section>
+    <div class="container show-hide-j-t">
+        <div class="content-box content-box--large content-box--text-center content-box--center text-container">
+            <div class="switcher-wrapper-cc">
+            {%- for block in section.blocks-%}
+                <span switcher-action-d class="{%- if forloop.index == 1-%}switcher-action-d active-border {%- else -%} switcher-action-d {%- endif -%}" id="switcher-{{forloop.index}}">{{block.settings.title}}</span>
+            {%- endfor -%}
+            </div>
+            <div class="switcher-wrapper-inner">
+                {%- for block in section.blocks-%}
+                    <span switcher-content-d style="{%-if forloop.index > 1 -%} display:none; {%- endif-%}" data-val="switcher-{{forloop.index}}">{{block.settings.paragraph}}</span>
+                {%- endfor -%}
+                </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+"name": "Multiple Switcher",
+"class": "capsules-class",
+"max_blocks": 5,
+"settings": [],
+"blocks": [
+    {   "type": "multiple-switcher",
+        "name": "Block Switch Text",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Title",
+                "info": "Add title here"
+                },
+                {
+                "type": "richtext",
+                "id": "paragraph",
+                "label": "Content",
+                "info": "Content"
+                }
+        ]
+    }
+],
+"presets": [
+{
+"name": "Multiple Switcher",
+"blocks": [
+{
+"type": "multiple-switcher"
+}
+]
+}
+]
+}
+{% endschema %}

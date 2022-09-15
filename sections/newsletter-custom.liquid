@@ -1,0 +1,164 @@
+
+<section class="section no-bottom-section">
+    <div class="newsletter-custom-wrapper">
+        <div class="newsletter-first-section-wrapper">
+            {%- if section.settings.subheading_left != blank -%}
+                <h1>{{ section.settings.subheading_left }}</h1>
+            {%- endif -%}
+            {%- if section.settings.content_left != blank -%}
+                <p>{{ section.settings.content_left }}</p>
+            {%- endif -%}
+            {%- if section.settings.button_title != blank -%}
+                <a href="{{section.settings.button_url}}" class="button button--primary">{{section.settings.button_title}}</a>
+            {%- endif -%}
+         </div>
+        <div class="newsletter-second-section-wrapper">
+
+        <div >
+            {%- if section.settings.subheading != blank -%}
+            <h1 class="heading heading--small">{{ section.settings.subheading | escape }}</h1>
+            {%- endif -%}
+
+            {%- if section.settings.content != blank -%}
+            <p>{{- section.settings.content -}}</p>
+            {%- endif -%}
+            {%- if section.settings.subheading_2 != blank -%}
+            <p>{{section.settings.subheading_2}}</p>
+            {%- endif -%}
+            {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+
+            {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
+            {%- if form.posted_successfully? -%}
+                <script>
+                window.addEventListener('DOMContentLoaded', () => {
+                    if (history.scrollRestoration) {
+                    history.scrollRestoration = 'manual'; // Prevent the browser to scroll on captcha page
+                    }
+
+                    document.getElementById('shopify-section-{{ section.id }}').scrollIntoView();
+                });
+                </script>
+
+                <div class="form__banner banner banner--success">
+                <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+                <p class="banner__content">{{ 'general.newsletter.success' | t }}</p>
+                </div>
+            {%- else -%}
+                {%- if form.errors -%}
+                <div class="form__banner banner banner--error">
+                    <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+                    <p class="banner__content">{{ form.errors.messages['email'] }}</p>
+                </div>
+                {%- endif -%}
+                    <div class="check-newsletter-inputs">
+                    <div>
+                    <input type="checkbox" id="newsletter" value="Newsletter" name="newsletter" checked>
+                        <label for="newsletter">{{ section.settings.one-section }}</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  value="New arrivals" id="newarrivals" name="newarrivals">
+                        <label for="newarrivals">{{ section.settings.two-section }}</label>
+                    </div>
+                     <div>
+                        <input type="checkbox"  value="New posts" id="newposts" name="newposts">
+                        <label for="newposts">{{ section.settings.three-section }}</label>
+                    </div>
+                    </div>
+                <input type="hidden" name=contact[tags] id="newsletter-main" value="Newsletter" name="newsletter-main" checked>
+                <div class="input-row no-gap-custom">
+                <div class="input input-custom">
+                    <input type="email" id="newsletter[{{ section.id }}][contact][email]" name="contact[email]" class="input__field" required>
+                    <label for="newsletter[{{ section.id }}][contact][email]" class="input__label">{{ 'general.newsletter.email' | t }}</label>
+                </div>
+
+                <div class="input">
+                    <button id="submit-newsletter-custom-btn" type="submit" is="loader-button" class="button button--primary no-radius-left">{{ 'general.newsletter.subscribe' | t }}</button>
+                </div>
+                </div>
+                 <div>
+                 <div class="accept-newsletter-terms-wrapper">
+                    <input type="checkbox" id="newsletter-terms" name="newsletter-terms">
+                        <label for="newsletter-terms">I have read and understood the Privacy Policy.</label>
+                    </div>
+                    <p id="newsletter-check-status"></p>
+                    </div>
+            {%- endif -%}
+            {%- endform -%}
+        </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Newsletter",
+  "class": "shopify-section--newsletter",
+  "settings": [
+       {
+      "type": "text",
+      "id": "subheading_left",
+      "label": "Left Section Title",
+      "default": "Newsletter Title"
+    },
+     {
+      "type": "text",
+      "id": "content_left",
+      "label": "Left Section Subtitle",
+      "default": "Promotions, new products and sales. Directly to your inbox"
+    },
+     {
+      "type": "text",
+      "id": "button_title",
+      "label": "Left Button Title",
+      "default": "Our story"
+    },
+       {
+      "type": "url",
+      "id": "button_url",
+      "label": "Left Button url"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Right Section Title",
+      "default": "Subscribe to our newsletter"
+    },
+    {
+      "type": "text",
+      "id": "one-section",
+      "label": "One Section",
+      "default": "Relooped Community"
+    },
+    {
+      "type": "text",
+      "id": "two-section",
+      "label": "Two section",
+      "default": "Exclusive Offers"
+    },
+    {
+      "type": "text",
+      "id": "three-section",
+      "label": "Three section",
+      "default": "Inspirations"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "label": "Right Section Subtitle",
+      "default": "Promotions, new products and sales. Directly to your inbox"
+    },
+     {
+      "type": "text",
+      "id": "subheading_2",
+      "label": "Right Section Subtitle 2",
+      "default": "Subscribe to our newsletter"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Newsletter",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

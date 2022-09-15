@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647594312176cb303": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/27.png",
+        "subheading": "Subheading",
+        "title": "Image with text overlay",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16408977646747edd2": {
+      "type": "slideshow",
+      "blocks": {
+        "16408977644f82a509-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Articles_1_1400_x_1400px.png",
+            "text_position": "middle_center",
+            "subheading": "a dream you dream together is only a dream. a dream you dream together is reality. ~yoko ono",
+            "title": "our team",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "16408977644f82a509-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16475943959cfbe8fd": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "164759439525fbe161-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Transparent_with_green_brid_small_6215b86b-9426-4673-b1ef-1b5a859eb600.png",
+            "title": "WE CREATE CIRCULAR CARRY-ON COLLECTIONS FOR CONSCIOUS TRAVELLERS TO PACK LIGHT AND EXPLORE THE WORLD SUSTAINABLY AND WORRY-FREE.",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "164759439525fbe161-0"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409466055f2da5d4": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "It is (not) about us, the Reloop Wear.",
+        "title": "",
+        "content": "<p>This brand, these stories, this effort: it's all about you, us and our Planet. It's about acting and causing a positive change in the fashion industry. Because we believe, that circularity is the way to go. <\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647448335fe2b8659": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "RELOOP WEAR IN A NUTSHELL:",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164744761148a7e234": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "1647447610e6dbb319-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Green__36.png",
+            "title": "TRAVEL CAPSULE WARDROBE",
+            "content": "<p>We create capsule collections for conscious travellers just like you. Functional, seasonless and circularly made; to be used anywhere you go, anytime you go. Designed per destination, NOT the fashion trends.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Green__46.png",
+            "title": "CIRCULAR DESIGN",
+            "content": "<p>Just like we always come back home after a long journey, we want our clothes to close the loop and end up at the right place, not the landfill. That’s why we believe circularity should be the way to go.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Green__90.png",
+            "title": "CONSCIOUS TRAVELLING",
+            "content": "<p>We really believe our individual choices can contribute to a better planet. Sometimes big change starts with a tiny little step, even as simple as transforming your wardrobe and the way you pack for your journeys.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647447610e6dbb319-0",
+        "1647447610e6dbb319-2",
+        "1647447610e6dbb319-1"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654702579fd391f1a": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "1654702579e6371b88-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-clothes-hangers-cling-emptily-to-the-shiny-shop-rack.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "READ ON",
+            "button_1_text": "CIRCULAR ROADMAP",
+            "button_1_link": "shopify:\/\/pages\/our-circular-roadmap",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1654702579e6371b88-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/capsule_wardrobe.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SHOP",
+            "button_1_text": "SHOP ALL",
+            "button_1_link": "shopify:\/\/collections\/by-category",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1654702579e6371b88-0",
+        "1654702579e6371b88-1"
+      ],
+      "settings": {
+        "desktop_main_image": "shopify:\/\/shop_images\/31.png",
+        "banner_title": "WHAT DO YOU WANT TO DO NEXT?",
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1654704895d8c365df": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "or... never miss a good read and",
+        "title": "Subscribe to our newsletter",
+        "content": "<p>Customize and have a full control over what you want to receive in your inbox:<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474453478ad0affc": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more.  #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    },
+    "1654702454499b6a4b": {
+      "type": "shop-the-look",
+      "disabled": true,
+      "blocks": {
+        "1654702454332b1319-0": {
+          "type": "look",
+          "settings": {
+            "dot_type": "inverted",
+            "product_1": "",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "1654702454332b1319-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647594312176cb303",
+    "16408977646747edd2",
+    "16475943959cfbe8fd",
+    "16409466055f2da5d4",
+    "1647448335fe2b8659",
+    "164744761148a7e234",
+    "1654702579fd391f1a",
+    "1654704895d8c365df",
+    "16474453478ad0affc",
+    "1654702454499b6a4b"
+  ]
+}

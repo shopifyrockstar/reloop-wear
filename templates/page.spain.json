@@ -1,0 +1,474 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1640895646ed177bf4": {
+      "type": "slideshow",
+      "blocks": {
+        "16408956466e42f436-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-tour-catedral-leon_991x_ca279915-1bcf-49f5-961e-d3736d0b6dc6.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "JORDAN",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "16408956466e42f436-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16408958519297c2c0": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Jordan (The Hashemite Kingdom of Jordan) is best known for its strong tradition of hospitality,  as well as historical destinations and landmarks that tell the story of its ancient history. It's a modern and progressive country yet still focused on preserving traditions.<\/p><p><br\/>Not only is it widely known as one of the safest destinations in the Middle East, this small country is also known for being hospitable to refugees from surrounding areas and is now home<br\/>to an estimated 2.1 million Palestinians and 1.4 million Syrian refugees who all live together <br\/>peacefully.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640895925400f86bd": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1640895925bc422a4c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-address",
+            "title": "CAPITAL",
+            "content": "<p>Amman<\/p>"
+          }
+        },
+        "1640895925bc422a4c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-worldwide",
+            "title": "Language",
+            "content": "<p>Arabic<\/p>"
+          }
+        },
+        "1640895925bc422a4c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "title": "Population",
+            "content": "<p>10.2 million<\/p>"
+          }
+        },
+        "1640895925bc422a4c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "title": "CURRENCY",
+            "content": "<p>JOD - Jordanian Dinar<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640895925bc422a4c-0",
+        "1640895925bc422a4c-1",
+        "1640895925bc422a4c-2",
+        "1640895925bc422a4c-3"
+      ],
+      "settings": {
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164241652499426ed7": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "WEATHER",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16408961897427e8d1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Weather",
+        "content": "<p>Best time to visit Jordan is March through May (spring) or September through October (autumn), when the days are warm, with temperatures into the high twenties, but the nights are cool. This climate is pleasant and perfect for exploring, so it is not too hot for hiking in the nature reserves.<\/p><p>The summer months (June, July & August) are very hot, with temperatures reaching up into the forties. Jordan experiences snow in the winter months (December, January & February) and the nights get cold, especially in the desert regions. Winter is also when the majority of the rain falls, but showers are usually short and sharp.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16424160698c108fe9": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "CANYOING WADI MUJIB",
+        "content": "Explore Jordan’s most beautiful canyon at 410 meters below sea level. The Mujib Biosphere \nReserve is the lowest nature reserve on Earth. Its mountains border the Dead Sea coast and \nare dissected by several river-filled canyons that offer the best river and adventure hikes in Jordan. The breathtaking scenery and the challenge of Mujib’s fast-flowing rivers make the Reserve one of Jordan’s most popular natural attractions."
+      }
+    },
+    "1642416229f0bf162f": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "CAMP AS IF YOU WERE ON MARS",
+        "content": "Many movies like The Martian, Lawrence of Arabia and Star Wars were filmed in the desert of \nWadi Rum, mostly because it’s said that it’s the closest resemblance to Mars on earth. This magical place is a must visit in Jordan. There are many cool camps that offer an authentic experience through the simple Bedouin life of the valley with its charm and beauty. One of these\ncamps is Sun city camp. You can stay in the Martian domes where you get to lay on your bed atnight watching the stars, or you can choose the traditional authentic Bedouin tent. Either way you will be able to enjoy the serenity and calmness this place has to offer. There are several \nactivities most camps offer there like: hiking and trekking through the big red stones or taking a jeep tour which can be a good way to see a large area of the massive desert biosphere in a short time. You can do yoga exercises at sunrise, watch the sun sets below the infinite \nlandscape horizon or enjoy stargazing at night. Since most of the land is undeveloped, the sky over Wadi Rum is unbelievably dark and full of more stars than you can imagine."
+      }
+    },
+    "16424162448159bc27": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "FLOAT IN THE SEA",
+        "content": "Situated at 429 m (1,407 ft) below sea level, this makes the Dead Sea the lowest point on the \nsurface of the Earth. The Dead Sea’s salt concentration is 34%, this high concentration of salt \nmakes the water very dense. Life cannot survive in that concentration of salt (that’s why it’s \ncalled the Dead Sea). The human body is not as dense as the salt water, that’s how humans \ncan float in the Dead Sea!\nThere are many resort options around the northeast shore of Jordan’s Dead Sea. We \nrecommend that you book yourself a stay at one of these for the complete experience."
+      }
+    },
+    "1642416421d2e44990": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "LEARN HOW TO CREATE FERMENTE DRINKS",
+        "content": "Not a common thing to do in Jordan, but definitely an interesting and beneficial skill to learn and \ndiscover. This workshop takes place at \"Greening The Desert Project Eco Lodge\" AKA the \ngreenest spot in the dead sea valley. You can immediately notice the application of \npermaculture design and the place’s philosophy of living in harmony with your surroundings in \nan ecologically and sustainable manner. You can enjoy the space and stay at their guesthouse \nor take one of their interesting workshops. For example; the 2-Day Fermentation Workshop, \nwhere you will learn how to make: Kombucha tea, Milk Kefir, second ferments and their \npotential, Water Kefir and Villi\/Roupy Milk. This workshop will also be focusing on the \nrelationship with our soil, the source of our food and the responsibility for our future generations."
+      }
+    },
+    "1642416650a7cb6232": {
+      "type": "featured-collections",
+      "blocks": {
+        "1642416650bbcbd695-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "SPRING",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "1637895c-69f6-45ef-9433-dfb7fd4a67bf": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "WINTER",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "7b5c6273-40cb-4991-8182-ad531694b3cb": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "SUMMER",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "de18cff2-d289-48ae-a9a5-56f7ca8986dc": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "FALL",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642416650bbcbd695-0",
+        "1637895c-69f6-45ef-9433-dfb7fd4a67bf",
+        "7b5c6273-40cb-4991-8182-ad531694b3cb",
+        "de18cff2-d289-48ae-a9a5-56f7ca8986dc"
+      ],
+      "settings": {
+        "subheading": "Your title",
+        "title": "WHEN ARE YOU GOING TO JORDAN?",
+        "content": "<p>Demo text which i couldn't find in your doc. Demo text which i couldn't find in your doc. Demo text which i couldn't find in your doc. Demo text which i couldn't find in your doc.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640896269db1f0a93": {
+      "type": "featured-collection-custom",
+      "disabled": true,
+      "blocks": {
+        "164089626936ca28f9-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "price_one": "450",
+            "price_two": "400",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "1627e66b-b13d-4f51-a902-058624f3f26b": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "price_one": "450",
+            "price_two": "400",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "9411c392-2880-422e-bd10-964118e8cadb": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "price_one": "450",
+            "price_two": "400",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "164089626936ca28f9-0",
+        "1627e66b-b13d-4f51-a902-058624f3f26b",
+        "9411c392-2880-422e-bd10-964118e8cadb"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "WHEN ARE YOU TRAVELLING TO JORDAN?",
+        "content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#f7f5f2",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16408963216d361cf7": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "CHECK OUT OUR TIPS ON SUSTAINABLE TRAVELLING IN JORDAN",
+        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/u\/1\/embed?mid=15DXHJi945DRy1jzEHsiNy8SJ6fonAaFN&amp;ehbc=2E312F\" width=\"1350\" height=\"600\"><\/iframe>",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1641545253df49a212": {
+      "type": "multiple-switcher",
+      "blocks": {
+        "16415452537758d6b1-0": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "MOVE",
+            "content": "Most Jordanians move around with cars or buses. Although in some areas buses might not be that accessible. Taxing taxis or an Uber is relatively cheap in Jordan compared to Europe. It is possible to walk to places depending where you’re staying and where you’d like to go, but biking might not be that convenient with Amman’s hills and steep valleys. here are some car rental companies that you can check out: Reliable, Montecarlo."
+          }
+        },
+        "7f7c30b7-9f18-498b-9f96-963d855e87d2": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "EAT",
+            "content": "Authentic Jordanian food with vegan options. \nIt might be tricky to find some good vegan food in Jordan, but if you’re in the capital, you might \nfind some restaurants that offer authentic Jordanian food with vegan options. A great one would be: Sufra Restaurant. It's also located in a beautiful old neighborhood that is full of cafes, art galleries and shops.\nTry the most popular Jordanian Desserts; Knafeh \nHabiba in Downtown Amman is one of the first specialized places of Knafeh in Amman. Their freshly baked Knafeh is a trademark in Jordan and an authentic place preferred by many locals. Enjoy a stroll through the downtown old city of Amman while grabbing a Knafeh dish. You won’t regret it! \nCook your own Jordanian Meal\n\nFood is a great part of a culture, so what’s better than cooking with locals and indulging in traditional, authentic Jordanian dishes? Beitsitti (translated my grandmother’s house) is a family owned restaurant that offers cooking classes for a variety of authentic Jordanian dishes. Imagine how rewarding it must be to eat your own three-course Arabic meal after cooking it."
+          }
+        },
+        "3586de73-f15f-4291-9ac4-3e1e5487bfc0": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "SHOP",
+            "content": "Shop vintage & second hand clothing (collapsible header V, by default expanded if there’s only one) Second Base Jordan is a vintage\/second hand clothing store where you can buy, sell or donate clothes. All of Second Base Jordan’s profit goes to a non-profit social enterprise called Fabric Aid. Fabric Aid collects, sorts & redistributes clothes to disadvantaged communities at micro prices, while reducing fabric waste."
+          }
+        },
+        "28333ef2-5ac8-4ed0-aeb3-0200361294fc": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "STAY",
+            "content": "Located in the heart of the mountainous Dana Biosphere Reserve, Feynan ecolodges might be \nthe most eco-friendly lodge you could find in Jordan. It is entirely solar-powered, with natural \nventilation, and all water coming from a local spring. The lodge is also renowned for their amenities including an on-site astronomer, who will lead you in an evening of rooftop stargazing session every night. You could also test out their 10 inch Mead telescope to get incredible views\nof Saturn’s ring, or Jupiter’s moons. With no other sources of light, you might be able to also catch some occasional shooting stars."
+          }
+        }
+      },
+      "block_order": [
+        "16415452537758d6b1-0",
+        "7f7c30b7-9f18-498b-9f96-963d855e87d2",
+        "3586de73-f15f-4291-9ac4-3e1e5487bfc0",
+        "28333ef2-5ac8-4ed0-aeb3-0200361294fc"
+      ],
+      "settings": {
+      }
+    },
+    "164089732324b63623": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "1640897323411a68d7-1": {
+          "type": "question",
+          "settings": {
+            "title": "STAY",
+            "answer": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p>"
+          }
+        },
+        "1640897323411a68d7-2": {
+          "type": "question",
+          "settings": {
+            "title": "MOVE",
+            "answer": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p>"
+          }
+        },
+        "1640897323411a68d7-4": {
+          "type": "question",
+          "settings": {
+            "title": "EAT",
+            "answer": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p>"
+          }
+        },
+        "cf26bb8f-1d46-44ee-90d3-f50dfb6e6e94": {
+          "type": "question",
+          "settings": {
+            "title": "SHOP",
+            "answer": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640897323411a68d7-1",
+        "1640897323411a68d7-2",
+        "1640897323411a68d7-4",
+        "cf26bb8f-1d46-44ee-90d3-f50dfb6e6e94"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409013745813e383": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "",
+        "title": "CHECK THIS NEIGHBORING COUNTRIES",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164241409211d92d32": {
+      "type": "featured-collection-custom",
+      "disabled": true,
+      "blocks": {
+        "1642414092aba68fc4-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Summer",
+            "price_one": "500",
+            "price_two": "550",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "91821131-981c-4966-b056-636503f0637a": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Winter",
+            "price_one": "500",
+            "price_two": "550",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642414092aba68fc4-0",
+        "91821131-981c-4966-b056-636503f0637a"
+      ],
+      "settings": {
+        "subheading": "WHEN ARE YOU GOING TO JORDAN?",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1640895646ed177bf4",
+    "16408958519297c2c0",
+    "1640895925400f86bd",
+    "164241652499426ed7",
+    "16408961897427e8d1",
+    "16424160698c108fe9",
+    "1642416229f0bf162f",
+    "16424162448159bc27",
+    "1642416421d2e44990",
+    "1642416650a7cb6232",
+    "1640896269db1f0a93",
+    "16408963216d361cf7",
+    "1641545253df49a212",
+    "164089732324b63623",
+    "16409013745813e383",
+    "164241409211d92d32"
+  ]
+}

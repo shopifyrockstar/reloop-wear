@@ -1,0 +1,13 @@
+{
+  "wrapper": "section#capsules-page",
+  "sections": {
+    "main": {
+      "type": "capsules-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

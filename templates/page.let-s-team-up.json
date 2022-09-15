@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647508878ba2cc522": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "hello likeminded person!",
+        "title": "",
+        "content": "<p>We are right at the beginning of our journey, but one thing we know for sure: TOGETHER, we can do more. If you are, like us, caring about the Planet, conscious travelling, circularity or capsule wardrobes, please reach out! We'd love to learn more about you and the potential areas of collaboration.  We are open to affiliate programs and partnership across various areas. <\/p><p>Let's reloop!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "5f81b49e-f481-4d63-a9e7-267be8c55340": {
+          "type": "text",
+          "settings": {
+            "title": "Your brand's name",
+            "use_long_text": false,
+            "is_required": true
+          }
+        },
+        "cbcf4685-b593-4047-a90f-c62c7da66a3c": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Your brand's primary focus area:",
+            "values": "conscious travelling, circular fashion\/economy, capsule wardrobe, supply chain, other"
+          }
+        }
+      },
+      "block_order": [
+        "5f81b49e-f481-4d63-a9e7-267be8c55340",
+        "cbcf4685-b593-4047-a90f-c62c7da66a3c"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "<p><strong>EMAIL US <br\/><\/strong>any time at <em>klem@reloopwear.com <\/em><br\/>we respond typically within 48 hours on the business days.<\/p><p><strong>OR CALL US<br\/><\/strong>between Monday and Friday, 9:00AM - 5:00PM <br\/>at +49 (151) 53946604<\/p><p><\/p><p><em>By submitting your message, you agree to our Privacy Policy available <\/em><a href=\"\/pages\/reloop-wear-privacy-statement\" target=\"_blank\" title=\"Reloop Wear Privacy Statement\"><em>right here<\/em><\/a><em>.<\/em><\/p>",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647508878ba2cc522",
+    "contact-form"
+  ]
+}

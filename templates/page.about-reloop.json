@@ -1,0 +1,412 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647594312176cb303": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/27.png",
+        "subheading": "Subheading",
+        "title": "Image with text overlay",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16408977646747edd2": {
+      "type": "slideshow",
+      "blocks": {
+        "16408977644f82a509-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Reloop_Martyna_Wydmanska_1.jpg",
+            "text_position": "middle_center",
+            "subheading": "This brand, these stories, this effort: it's all about you, us and our Planet. It's about acting and causing a positive change in the fashion industry. Because we believe, that circularity is the way to go.",
+            "title": "IT IS (NOT) ABOUT US",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "16408977644f82a509-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16475943959cfbe8fd": {
+      "type": "text-with-icons",
+      "blocks": {
+        "164759439525fbe161-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Transparent_with_green_brid_small_6215b86b-9426-4673-b1ef-1b5a859eb600.png",
+            "title": "WE CREATE CIRCULAR CARRY-ON COLLECTIONS FOR CONSCIOUS TRAVELLERS TO PACK LIGHT AND EXPLORE THE WORLD SUSTAINABLY AND WORRY-FREE.",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "164759439525fbe161-0"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409466055f2da5d4": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "It is (not) about us, the Reloop Wear.",
+        "title": "",
+        "content": "<p>This brand, these stories, this effort: it's all about you, us and our Planet. It's about acting and causing a positive change in the fashion industry. Because we believe, that circularity is the way to go. <\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474477161f039489": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Hello there, wanderer.",
+        "content": "<p>You’re probably googling a new adventure during your coffee break. After long hours of work, video calls and running errands, you <strong>can’t stop thinking about where to go next<\/strong>.<\/p><p>Maybe you’ve already booked a trip and planned everything meticulously down to the very last detail. Or maybe you’ll just pick a random destination, go with the flow and improvise along the way. We each have our own way of travelling. But despite our differences, we all have something in common: <strong>an urge to explore and transform the world<\/strong>.<\/p><p>Yet, have you ever thought about <strong>how much time you spend planning your travel outfits?<\/strong> Perhaps you stashed all of your favourite clothes, but realised <strong>you had nothing to wear.<\/strong> Packing can be a hassle even for the best of planners.<\/p><p>What if we told you <strong>you can pack light and comfortable while taking care of the planet? <\/strong>That’s right. We create capsule collections for conscious travellers just like you. <strong>Functional, seasonless and circularly made<\/strong>; to be used anywhere you go, anytime you go. <\/p><p>We really believe our individual choices can contribute to a better planet. Sometimes big change starts with a tiny little step, even as simple as transforming your wardrobe. Because<strong> fashion shouldn’t cost us the earth<\/strong>. <\/p><p>That is our belief and this our commitment. To the planet and to you. <br\/>Welcome to the journey, we love having you with us.<br\/><\/p><p>Wear the change. Spread the change. <br\/>Happy exploring! <\/p><p>#DareToWear #LetsReloop #WearTheChange <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647448335fe2b8659": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "RELOOP WEAR IN A NUTSHELL:",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164744761148a7e234": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1647447610e6dbb319-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Green__36.png",
+            "title": "TRAVEL CAPSULE WARDROBE",
+            "content": "<p>We create capsule collections for conscious travellers just like you. Functional, seasonless and circularly made; to be used anywhere you go, anytime you go. Designed per destination, NOT the fashion trends.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Green__46.png",
+            "title": "CIRCULAR DESIGN",
+            "content": "<p>Just like we always come back home after a long journey, we want our clothes to close the loop and end up at the right place, not the landfill. That’s why we believe circularity should be the way to go.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Green__90.png",
+            "title": "CONSCIOUS TRAVELLING",
+            "content": "<p>We really believe our individual choices can contribute to a better planet. Sometimes big change starts with a tiny little step, even as simple as transforming your wardrobe and the way you pack for your journeys.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647447610e6dbb319-0",
+        "1647447610e6dbb319-2",
+        "1647447610e6dbb319-1"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165470238874ac9e63": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "16547023882109e261-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26.png",
+            "highlight": false,
+            "subheading": "",
+            "title": "RELOOPED MANIFESTO",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#282828"
+          }
+        },
+        "16547023882109e261-1": {
+          "type": "quote",
+          "settings": {
+            "highlight": false,
+            "subheading": "from social media:",
+            "content": "We need to do better for our planet! Love your business values",
+            "author": "boxsr.club",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a"
+          }
+        },
+        "16547023882109e261-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.png",
+            "highlight": false,
+            "subheading": "",
+            "title": "OUR CIRCULAR ROADMAP",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/our-circular-roadmap",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#282828"
+          }
+        }
+      },
+      "block_order": [
+        "16547023882109e261-0",
+        "16547023882109e261-1",
+        "16547023882109e261-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164759470863b135ae": {
+      "type": "featured-collections",
+      "blocks": {
+        "16475947089bc750c5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "europe",
+            "label": "EUROPE TRAVEL CAPSULE WARDROBE",
+            "button_text": "EUROPE TRAVEL CAPSULE WARDROBE",
+            "button_url": "shopify:\/\/collections\/europe"
+          }
+        }
+      },
+      "block_order": [
+        "16475947089bc750c5-0"
+      ],
+      "settings": {
+        "subheading": "WAIT NO MORE",
+        "title": "START EXPLORING:",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654702579fd391f1a": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "1654702579e6371b88-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-clothes-hangers-cling-emptily-to-the-shiny-shop-rack.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "READ ON",
+            "button_1_text": "CIRCULAR ROADMAP",
+            "button_1_link": "shopify:\/\/pages\/our-circular-roadmap",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1654702579e6371b88-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/capsule_wardrobe.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SHOP",
+            "button_1_text": "SHOP ALL",
+            "button_1_link": "shopify:\/\/collections\/by-category",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1654702579e6371b88-0",
+        "1654702579e6371b88-1"
+      ],
+      "settings": {
+        "desktop_main_image": "shopify:\/\/shop_images\/31.png",
+        "banner_title": "WHAT DO YOU WANT TO DO NEXT?",
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1654704895d8c365df": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "or... never miss a good read and",
+        "title": "Subscribe to our newsletter",
+        "content": "<p>Customize and have a full control over what you want to receive in your inbox:<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474453478ad0affc": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more.  #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    },
+    "1654702454499b6a4b": {
+      "type": "shop-the-look",
+      "disabled": true,
+      "blocks": {
+        "1654702454332b1319-0": {
+          "type": "look",
+          "settings": {
+            "dot_type": "inverted",
+            "product_1": "",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "1654702454332b1319-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647594312176cb303",
+    "16408977646747edd2",
+    "16475943959cfbe8fd",
+    "16409466055f2da5d4",
+    "16474477161f039489",
+    "1647448335fe2b8659",
+    "164744761148a7e234",
+    "165470238874ac9e63",
+    "164759470863b135ae",
+    "1654702579fd391f1a",
+    "1654704895d8c365df",
+    "16474453478ad0affc",
+    "1654702454499b6a4b"
+  ]
+}

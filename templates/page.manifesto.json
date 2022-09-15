@@ -1,0 +1,356 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16408977646747edd2": {
+      "type": "slideshow",
+      "blocks": {
+        "16408977644f82a509-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "RELOOPED MANIFESTO",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "16408977644f82a509-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1647448335fe2b8659": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "RELOOP WEAR IN A NUTSHELL:",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164744761148a7e234": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "1647447610e6dbb319-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Green__36.png",
+            "title": "TRAVEL CAPSULE WARDROBE",
+            "content": "<p>We create capsule collections for conscious travellers just like you. Functional, seasonless and circularly made; to be used anywhere you go, anytime you go. Designed per destination, NOT the fashion trends.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Green__46.png",
+            "title": "CIRCULAR DESIGN",
+            "content": "<p>Just like we always come back home after a long journey, we want our clothes to close the loop and end up at the right place, not the landfill. That’s why we believe circularity should be the way to go.<\/p>"
+          }
+        },
+        "1647447610e6dbb319-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Green__90.png",
+            "title": "CONSCIOUS TRAVELLING",
+            "content": "<p>We really believe our individual choices can contribute to a better planet. Sometimes big change starts with a tiny little step, even as simple as transforming your wardrobe and the way you pack for your journeys.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647447610e6dbb319-0",
+        "1647447610e6dbb319-2",
+        "1647447610e6dbb319-1"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409466055f2da5d4": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "It is (not) about us, the Reloop Wear.",
+        "title": "",
+        "content": "<p>This brand, these stories, this effort: it's all about you, us and our Planet. It's about acting and causing a positive change in the fashion industry. Because we believe, that circularity is the way to go. <\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474477161f039489": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "why reloop wear? read:",
+        "title": "OUR MANIFESTO",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640897887a0763d48": {
+      "type": "image-with-text",
+      "blocks": {
+        "16408978870348af16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Articles_1_1400_x_1400px.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "EXPLORE AS IF THERE WAS TOMORROW",
+            "content": "<p>We love our planet. We really do. Our passion is to explore and discover all it has to offer. <\/p><p>Our parents and grandparents had the chance to see the beauty of the coral reefs. Today, half of these have been lost or severely damaged. We don’t want the children born today to be the last to see them. <strong>We believe the generations of tomorrow should have the  same chance<\/strong> to fully experience the wonders of the Earth, just like we did. <\/p><p>Because we love our planet, we feel the need to act and to do it now, so we’re tackling what we know best: the fashion industry.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16408978870348af16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164089795862ee3dbf": {
+      "type": "image-with-text",
+      "blocks": {
+        "164089795810c94268-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "FASHION SHOULDN’T COST US THE EARTH",
+            "content": "<p>Fast fashion is putting at risk everything we love. We, people, consume billions of new pieces of clothing every year, with more than half ending up in landfill within 3 years of being bought. Not to mention the huge amount of natural resources wasted to keep up with this speed of production. We believe this is a problem that shouldn’t exist, <strong>because the way we dress shouldn’t be at the expense of the Earth<\/strong>. <\/p><p>That’s why we’re on a mission to reloop the fashion world, by rethinking the way we make and use our travel clothes. And how do we do this?<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164089795810c94268-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16408980264083552b": {
+      "type": "image-with-text",
+      "blocks": {
+        "164089802686ad198a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "WHAT GOES AROUND COMES AROUND",
+            "content": "<p>Just like we always come back home after a long journey, <strong>we want our clothes to close the loop and end up at the right place, not the landfill. That’s why we believe circularity should be the way to go<\/strong>. We work hard to change design processes and make a lasting impact by creating lasting clothes. Less is more and simple is beautiful, so we want to simplify the way we pack.<\/p><p>We aim at full circularity. Are we there yet? Hell no. We know we aren’t perfect and there’s still a long way to go, but here we are, taking it step by step in making planet-friendly travel clothes. <\/p><p>We want all travellers to explore consciously and our mission is to help you do it.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164089802686ad198a-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640898060aa7962fd": {
+      "type": "image-with-text",
+      "blocks": {
+        "164089805971beebcc-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "SMALL STEPS TOWARDS BIG CHANGE",
+            "content": "<p><strong>We believe big change starts with a tiny little step<\/strong>, even something as simple as changing your wardrobe. We also believe <strong>many tiny steps have a multiplier effect<\/strong>.<\/p><p>This is the force behind Reloop: a group of people passionate about contributing to the circular fashion movement, <strong>together<\/strong>. Our clothes are made for travelers, by travelers. Because we like to pack light and comfortably, but most importantly, <strong>consciously<\/strong>, and we’re sure you do too! That’s why we want you to <strong>take this small step with us<\/strong>.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164089805971beebcc-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647506660f4632668": {
+      "type": "image-with-text",
+      "blocks": {
+        "16475066604980f9e5-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18.png",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "EVERYONE CAN AND SHOULD TRY TO MAKE A DIFFERENCE",
+            "content": "<p>Yes, in order to make a difference, brands should be more responsible and held accountable, so <strong>you’ve got our word for full transparency<\/strong>. Always.<\/p><p>But the fact is, everyone can make a difference and everyone should try. For that, excessive consumerism and the throwaway society mindset must change. We know that change can feel overwhelming at times, but that’s why we’re here. We want to show you that<strong> sustainability can be simple, understandable and within reach for all of us<\/strong>. We, just like you, don’t want to give up the joy of traveling, but we want to do it right. Because we believe taking care of the planet should be an easy and natural choice.<\/p><p><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16475066604980f9e5-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164750678573a43c75": {
+      "type": "image-with-text",
+      "blocks": {
+        "16475067854ea5ab4c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Transparent_with_green_brid_small_6215b86b-9426-4673-b1ef-1b5a859eb600.png",
+            "tab_label": "Item",
+            "subheading": "This is why we create circular carry-on collections for conscious travellers to pack light and explore the world sustainably and worry-free.",
+            "title": "",
+            "content": "<p>We love our planet. We really do. That’s why we take these tiny little steps to make a difference, to keep exploring as if there’s still tomorrow. <\/p><p>But we can’t do it on our own. <br\/><strong>Care to join us on the journey?<\/strong><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16475067854ea5ab4c-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474453478ad0affc": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more.  #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16408977646747edd2",
+    "1647448335fe2b8659",
+    "164744761148a7e234",
+    "16409466055f2da5d4",
+    "16474477161f039489",
+    "1640897887a0763d48",
+    "164089795862ee3dbf",
+    "16408980264083552b",
+    "1640898060aa7962fd",
+    "1647506660f4632668",
+    "164750678573a43c75",
+    "16474453478ad0affc"
+  ]
+}

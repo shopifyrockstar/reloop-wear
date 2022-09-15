@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1641294727f1c855cd": {
+      "type": "capsules-collection",
+      "disabled": true,
+      "blocks": {
+        "164129472720d6b7f5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsules"
+          }
+        },
+        "13fe071f-0d1b-4607-a3cf-43b61d91cc66": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsules"
+          }
+        },
+        "f08d7f04-0574-43c2-947f-e689f08e12a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathrobes"
+          }
+        },
+        "ba19421d-47c6-430c-9d36-433386d252ed": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test"
+          }
+        },
+        "44d8aa80-70e7-4261-9772-a8c4bf5b5191": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8e23d68d-8bab-4bbb-a8bc-1ddab6bef550": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "9ddbae8d-3ff2-424f-8ecf-098df531c6f7": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "164129472720d6b7f5-0",
+        "13fe071f-0d1b-4607-a3cf-43b61d91cc66",
+        "f08d7f04-0574-43c2-947f-e689f08e12a0",
+        "ba19421d-47c6-430c-9d36-433386d252ed",
+        "44d8aa80-70e7-4261-9772-a8c4bf5b5191",
+        "8e23d68d-8bab-4bbb-a8bc-1ddab6bef550",
+        "9ddbae8d-3ff2-424f-8ecf-098df531c6f7"
+      ],
+      "settings": {
+        "capsule_title": "Capsules",
+        "menu_links": "main-menu",
+        "capsule_size_filter": "Midi,Mini,Maxi",
+        "seazon_filter": "Winter,Summer"
+      }
+    },
+    "164181360472f9acc8": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Return this product",
+        "content": "<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1641813855b1847f92": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Return address",
+        "title": "",
+        "content": "<p>Reloop Wear<\/p><p>Am Anger 2 A<\/p><p>85235 Oldelzhausen<\/p><p>Germany<\/p><p>Follow this steps to securely return this product:<\/p><p>• 1<\/p><p>• 2<\/p><p>• 3<\/p><p>Did you order with RePack? Follow this steps to re-use your packaging. <a href=\"\/pages\/capsules-1\" title=\"Capsules\">Read more<\/a><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1641813530aeddb606": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412999754fd590d0": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "Newsletter Title",
+        "content_left": "Promotions, new products and sales. Directly to your inbox",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "Promotions, new products and sales. Directly to your inbox",
+        "subheading_2": "Subscribe to our newsletter"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1641294727f1c855cd",
+    "164181360472f9acc8",
+    "1641813855b1847f92",
+    "1641813530aeddb606",
+    "16412999754fd590d0"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "show_category": false,
+        "show_excerpt": false
+      }
+    },
+    "164089896891270dec": {
+      "type": "featured-collection-custom",
+      "blocks": {
+        "16408989682067e870-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "africa",
+            "label": "",
+            "price_one": "",
+            "price_two": "",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "07dd3094-feca-4b97-804d-f4685e0d70dd": {
+          "type": "collection",
+          "settings": {
+            "collection": "asia",
+            "label": "",
+            "price_one": "",
+            "price_two": "",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16408989682067e870-0",
+        "07dd3094-feca-4b97-804d-f4685e0d70dd"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164089896891270dec"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1639224293054b16e0": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "SEE MORE",
+        "button_link": "shopify:\/\/products\/no5-classic-cigarette-pouch-classic-collection",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "right",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16392244060d975ac6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_B_2.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#fafafa",
+        "overlay_opacity": 0
+      }
+    },
+    "1639224821ebeae8a2": {
+      "type": "featured-product",
+      "blocks": {
+        "163922482176beba8d-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "163922482176beba8d-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "163922482176beba8d-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "163922482176beba8d-0",
+        "163922482176beba8d-1",
+        "163922482176beba8d-2"
+      ],
+      "settings": {
+        "product": "breathable-chiller-t-shirt",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1639224293054b16e0",
+    "16392244060d975ac6",
+    "1639224821ebeae8a2"
+  ]
+}

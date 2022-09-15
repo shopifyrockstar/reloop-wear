@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16475118309cdb1298": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "To keep us on the track",
+        "title": "",
+        "content": "<p>Some prefer to wander freely following their heart. Some flex their brain muscles to meticulously plan their trip. Whilst our hearts give us passion to keep going, it’s our minds that map out Reloop Wear’s path towards circularity. <\/p><p>Because for us, no matter big or small, everything comes down to a journey. <br\/>AND THIS IS OUR CIRCULARITY JOURNEY FOR THE NEXT 10 YEARS.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647512058b5d08455": {
+      "type": "timeline",
+      "blocks": {
+        "164751205870c25a9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.png",
+            "label": "2022",
+            "title": "DAY 1",
+            "content": "<p><strong>Making that first step <\/strong><\/p><p>Every journey starts with the first step. And ours is damn big. We dived straight into the circular design to create as circular products as possible. No, we’re not there yet. But we’re persevering. 2022 is the year of launching our NOT perfectly circular products. But even though they’re not perfect YET, we’re already super proud of them. <\/p><p><a href=\"\/pages\/our-circular-roadmap\" title=\"Our Circular Roadmap\">Keep on reading...<\/a><\/p>",
+            "button_text": "READ ON",
+            "button_link": "shopify:\/\/pages\/our-circular-roadmap"
+          }
+        },
+        "164751205870c25a9e-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/27.png",
+            "label": "2023",
+            "title": "ONE YEAR FROM DAY 1",
+            "content": "<p><strong>Delivering on our concept <\/strong><\/p><p>You might think that one year won’t change that much. You might be right. But for us, one year means dozens of those little efforts we take towards achieving perfect circularity, and each one of them counts! But want to know a little secret? <\/p><p>Keep on reading...<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "164751205870c25a9e-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22.png",
+            "label": "2027",
+            "title": "5 YEARS FROM DAY 1",
+            "content": "<p><strong>Imperfect, but circular <\/strong><\/p><p>Imagine a perfect capsule wardrobe designed for ANY country in the world. That’s us, five years from day 1. We aim to have true capsule collections for every digital nomad and conscious traveller to allow you to travel sustainably and worry free. <\/p><p>Keep on reading...<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "6d186a4c-681c-4290-90bc-1296c04d783c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
+            "label": "2032",
+            "title": "10 YEARS FROM DAY 1",
+            "content": "<p><strong>Becoming a certified and socially responsible brand<\/strong><\/p><p>It’s hard to imagine what will be 10 years from now, but we definitely know what we work towards. Being a young circular clothing brand without millions of revenue, often closes the doors for accessing the innovative or certified materials. Even though we really wish to...<\/p><p>Keep on reading...<\/p>",
+            "button_text": "Read on",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164751205870c25a9e-0",
+        "164751205870c25a9e-1",
+        "164751205870c25a9e-2",
+        "6d186a4c-681c-4290-90bc-1296c04d783c"
+      ],
+      "settings": {
+        "subheading": "Come and join us. We love having you with us.",
+        "title": "",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647513381c3846e93": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "keep on reading:",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647513449cbad29f6": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "2022 - DAY 1 | Making that first step",
+        "content": "Every journey starts with the first step. And ours is damn big. We dived straight into the circular design to create as circular products as possible. No, we’re not there yet. But we’re persevering. 2022 is the year of launching our NOT perfectly circular products. But even though they’re not perfect YET, we’re already super proud of them. \nIn our 2022 collection, you can see ___ % of clothes containing recycled fibers and ___ containing deadstock fabrics to eliminate waste from our Planet. We want to close the loop, hence ___ of our designs allow full recyclability or biodegradability at the end of the useful cycle, most of them with the chemical cycle. We achieved this by using trims like biodegradable buttons and threads, recycled naps and zippers and natural fibers’ brand labels. Every single detail matters when defining biodegradability or recyclability and where we weren’t perfect yet, we manually decompose the elements to upcycle those we can still use. \nNone of our clothes contain conventional cotton, virgin polyester, nylon or viscose, except those coming from deadstock fabrics. Instead we produce from Tencel, lyocell, organic cotton, recycled polyester, linen and Refibra. For those clothes where we used jersey fabric (95% or 96% organic cotton, 5% or 4% elastane) we designed the process for the mechanical recycling. ___ of our fabrics are certified by either GOTS, Oekotex or ___ . Sadly buying certified fabrics, whilst not being certified ourselves, does not allow us to share this information with you, the customer, as we may face fines. This is why you will not see many certificates on our website, even though most of the fabrics are certified, as we pay great attention to the certification of our fabrics, to make sure they are safe for you and the environment. You will also often see deadstock fabrics used in our collection. Whilst there are pros and cons of doing that, we are proud to save from the landfills or incineration rolls of fabrics that are still perfect to use. \nShipping is a big part of our circular model. This is why we partnered up with RePack, a reusable packaging system. We believe that both consumers and producers carry the responsibility to make conscious choices. This is why at the stage we’re at, we can afford paying half of the RePack price to encourage you to keep the packaging waste in the loop. We limit the amount of hang-tags and instead encourage you to dwell into the product’s details on the website. \nCreating a bond or connection with your clothing is one of the ways we can encourage you to keep using your clothes for longer. This is why we created a digital sustainable journey to onboard it together with your relooped product. We believe that the more you will learn how to take care of your product and how to use it best, the better you will be equipped to use it to its fullest potential and therefore the longer you will use it. That, we hope, will turn into a wonderful bond lasting for years and preventing your clothes from the landfill. \nYou’ll often hear us saying “progress not perfection”, because even though we’re not perfect, we’re getting there with every conscious decision we make and stand for. This is just the first step of our journey. But we plan for many more to come."
+      }
+    },
+    "164751373577ed68ac": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "2023 - ONE YEAR FROM DAY 1 | Delivering on our concept",
+        "content": "You might think that one year won’t change that much. You might be right. But for us, one year means dozens of those little efforts we take towards achieving perfect circularity, and each one of them counts! But want to know a little secret? Our core designer will be seriously challenged in year 2, because somehow we need to make ALL of our collections fit well together. Tricky! But we are committed to design for the destination, NOT the passing-by fashion trends. All of our collections are to be built in such a way that no matter what you buy, every relooped product will fit well together and therefore reduce your consumption. It’s a simple rule: buy less and have more. \nBut circularity means also designing for longevity. This is why after the first year, we will conduct a careful research on our past collections, to make sure we improve everything that was faulty and eventually improve every single collection that follows to make it last for years to come. \nFrom a circular materials perspective, we soon plan to replace all of our threads used in the biological cycle with the Cradle to Cradle certified lyocell threads to allow full biodegradability even of the threads. We are piloting as well the Cradle to Cradle curtain fabrics (yes, you read it right) to use for our garment and therefore minimise the harmful substances that enter the soil at the end of the garment’s useful cycle. \nWe also plan to ship 100% of our orders in the RePack packaging or re-used packaging to eliminate waste coming from shipping.  \nWe’ve got loads up our sleeve to deliver on circularity. But in order to survive severe competition in the fashion industry, we also need to make sure that our business model is sustainable long term. This is why, in the first place, we want to deliver on our capsule wardrobe concept to allow you fully feel the value coming from our relooped products. And that’s why we keep improving our circularity over time, while making sure we create luggage-sized products you love for years to come."
+      }
+    },
+    "1647513744a31459d8": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "2027 - 5 YEARS FROM DAY 1 | Imperfect, but circular",
+        "content": "Imagine a perfect capsule wardrobe designed for ANY country in the world. That’s us, five years from day 1. We aim to have true capsule collections for every digital nomad and conscious traveller to allow you to travel sustainably and worry free. After we will have enough products in our collections to cater for each destination, not fashion trends, we will turn our focus towards full circularity. \nWe are committed to 90% of our designs containing at least 40% of the recycled fibres and 100% of them being designed for recyclability or biodegradability. Our plan is to use only deadstock fabric, if we can fully track and validate if it’s harmful to the soil. Knowing how harmful the fashion substances are to our Planet, we aim in having a full traceability of all of our fabrics, including the chemicals used for their dyes. \nEnd of the lifecycle of the product doesn’t always end at the producer. This is why we want to take the responsibility for our products and equip each one of them with the NFC tag along with the QR code to assure full traceability to you and to the recycling facilities. This way, no matter if you ship your products back to us or throw it to the recycling station, the recycling facility will know what to do with it. \nWhile we will continue delivering on our promise to have your “clothing” back wherever you travel, it will also be the time for us to look into every tiniest detail of our products from a circularity perspective and get it done right."
+      }
+    },
+    "164751374977236ffe": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "2032 - 10 YEARS FROM DAY 1 | Becoming a certified and socially responsible brand",
+        "content": "It’s hard to imagine what will be 10 years from now, but we definitely know what we work towards. Being a young circular clothing brand without millions of revenue, often closes the doors for accessing the innovative or certified materials. Even though we really wish to, we often can’t get permission to order Cradle to Cradle certified components, which would improve our design for safe decomposition of the product, simply because we’re not certified yet. This is why, 10 years from our DAY 1, we want to take one more bold step. We want to get Cradle to Cradle certified, to make sure none of our products do any harm to our Planet. \n10 years from now hopefully will allow us to grow enough to be able to do our bit for other humans too. We aim to create a network of repair hubs supporting refugees and asylum seekers in Germany and Poland and incorporating their repair and sewing services into our processes to empower everyone who needs it, especially women, on their new journeys. \nIt’s a long journey, with many tiny steps ahead, but we’re fully on it. 100% with our hearts and with our minds. Committed to do our bit to help our Planet, that we love and want to explore as if there WAS tomorrow."
+      }
+    },
+    "1647513878e055ec72": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "It’s a long journey, with many tiny steps ahead, but we’re fully on it. 100% with our hearts and with our minds. Committed to do our bit to help our Planet, that we love and want to explore as if there WAS tomorrow.",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164751176624011f28": {
+      "type": "multiple-switcher",
+      "disabled": true,
+      "blocks": {
+        "16475117669815785d-0": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "2022",
+            "paragraph": "<p>test for 2022 <\/p><p>content<\/p><p>test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now <\/p><p>test in a new line now <\/p><p>test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now test in a new line now <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16475117669815785d-0"
+      ],
+      "settings": {
+      }
+    },
+    "16475130419239b554": {
+      "type": "testimonials",
+      "blocks": {
+        "06eff812-c23e-4a4c-858d-6d7f98fdf359": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Someone is sitting in the shade today because someone planted a tree long ago.",
+            "author": "Warren Buffett"
+          }
+        }
+      },
+      "block_order": [
+        "06eff812-c23e-4a4c-858d-6d7f98fdf359"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "remember:",
+        "title": "",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412999754fd590d0": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "Newsletter Title",
+        "content_left": "Promotions, new products and sales. Directly to your inbox",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "one-section": "Relooped Community",
+        "two-section": "Exclusive Offers",
+        "three-section": "Inspirations",
+        "content": "Promotions, new products and sales. Directly to your inbox",
+        "subheading_2": "Subscribe to our newsletter"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16475118309cdb1298",
+    "1647512058b5d08455",
+    "1647513381c3846e93",
+    "1647513449cbad29f6",
+    "164751373577ed68ac",
+    "1647513744a31459d8",
+    "164751374977236ffe",
+    "1647513878e055ec72",
+    "164751176624011f28",
+    "16475130419239b554",
+    "16412999754fd590d0"
+  ]
+}

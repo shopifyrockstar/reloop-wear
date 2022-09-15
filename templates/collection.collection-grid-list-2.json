@@ -1,0 +1,378 @@
+{
+  "wrapper": "section#grid-collection-demo",
+  "sections": {
+    "16392256592a9d2d80": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Tokio madrid capsule",
+        "content": "<p>450 € <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409438463b1b21e3": {
+      "type": "slideshow",
+      "blocks": {
+        "1640943846c311ac34-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1640943846c311ac34-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225581b4e003e2": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tristique malesuada ultrices ultrices nisi molestie. Malesuada pellentesque faucibus sed platea magna sollicitudin leo. Semper cum tincidunt duis lorem viverra at. Magna dolor ut justo non sit blandit diam. Id faucibus in lorem tincidunt nec at condimentum massa mi. Eget eget diam id sit odio volutpat justo tincidunt pellentesque. Risus, ac suspendisse congue proin tortor, facilisi quisque.<br\/>Eu arcu, ut nisl est. Sit felis lorem consectetur fringilla ac, vitae diam. Blandit posuere duis viverra hendrerit vestibulum vel orci velit. Ultrices commodo congue venenatis est ultrices dolor neque. Venenatis egestas.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164121148145fde40c": {
+      "type": "grid-list-detail-wrapper",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": true,
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "featured_links": "",
+        "category_links": "",
+        "other_links": "",
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "164094582186800629": {
+      "type": "grid-collection-demo",
+      "settings": {
+        "product": "chill-shorts-unisex",
+        "subheading": "Capsule Grid List",
+        "title": "",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640949982550b2e15": {
+      "type": "grid-collection-demo",
+      "blocks": {
+        "1640949982be14f1d0-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640949982be14f1d0-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640949982be14f1d0-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1640949982be14f1d0-0",
+        "1640949982be14f1d0-1",
+        "1640949982be14f1d0-2"
+      ],
+      "settings": {
+        "product": "copy-of-madrid-summer-capsule4",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409500192b8b2b50": {
+      "type": "grid-collection-demo",
+      "blocks": {
+        "1640950019e7d905c5-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640950019e7d905c5-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640950019e7d905c5-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1640950019e7d905c5-0",
+        "1640950019e7d905c5-1",
+        "1640950019e7d905c5-2"
+      ],
+      "settings": {
+        "product": "chill-shorts-unisex",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409500395b543aaf": {
+      "type": "grid-collection-demo",
+      "blocks": {
+        "1640950039bb16faae-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640950039bb16faae-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640950039bb16faae-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1640950039bb16faae-0",
+        "1640950039bb16faae-1",
+        "1640950039bb16faae-2"
+      ],
+      "settings": {
+        "product": "fire-element-cotton-bag-small-sack",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409442051e47835d": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Can't decide now? Add them all to My Capsule and customise it later.<\/p>",
+        "button_text": "Add them all to My Capsule",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412172919bb8e701": {
+      "type": "featured-collection-custom",
+      "blocks": {
+        "16412172905e1dccc4-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "price_one": "",
+            "price_two": "",
+            "collection_link": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16412172905e1dccc4-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Others also viewed",
+        "content": "<p>Tellus sed est faucibus consequat amet sit.<\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f8f5f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412177425daabe4f": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "Newsletter Title",
+        "content_left": "Promotions, new products and sales. Directly to your inbox",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "Promotions, new products and sales. Directly to your inbox",
+        "subheading_2": "Subscribe to our newsletter"
+      }
+    }
+  },
+  "order": [
+    "16392256592a9d2d80",
+    "16409438463b1b21e3",
+    "1639225581b4e003e2",
+    "164121148145fde40c",
+    "collection-banner",
+    "main",
+    "164094582186800629",
+    "1640949982550b2e15",
+    "16409500192b8b2b50",
+    "16409500395b543aaf",
+    "16409442051e47835d",
+    "16412172919bb8e701",
+    "16412177425daabe4f"
+  ]
+}

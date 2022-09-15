@@ -1,0 +1,74 @@
+<span id="default_currency" style="display:none;">{{cart.currency.symbol}}</span>
+<section>
+    <div class="container">
+        <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb text--xsmall text--subdued hidden-phone">
+        <ol class="breadcrumb__list" role="list">
+            <li class="breadcrumb__item">
+            <a class="breadcrumb__link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a>
+            </li>
+            <li class="breadcrumb__item">
+            <span class="breadcrumb__link" aria-current="page">{{ page_title }}</span>
+            </li>
+        </ol>
+        </nav>
+        <div class="capsule-content">
+        <div class="capsule-menu">
+            <p>Need help?</p>
+            <p>We're here for you. Reach out to us and we'll get back to you right away.</p>
+            <a href="mailto:hello@reloopwear.com">{{ section.settings.mail }}</a>
+            <a href="tel:0382031768">{{ section.settings.tel }}</a>
+        </div>
+        <div class="capsule-main_container">
+            <div class="capsule-header">
+                <div class="capsule-header-info">
+                    <h1 class="capsule-title">My Capsule</h1>
+                    <p class="capsule-subtitle">Add 4, 8 or 12 products to create your own capsule wardrobe and get a discount on your new interchangeable set.</p>
+                </div>
+                <div class="capsule-add-to-bag">
+                <div class="capsule-price">
+                    <span id="real_price_capsule"></span> <span id="main_price_capsule"></span>
+                </div>
+                <span class="capsule-discount"></span>
+                <button id="capsule-to-bag" class="add-to-bag-capsule"> <i class="add-to-capsule-icon"></i><span id="btn-c-text">Add My Capsule to the Bag</span></button>
+                </div>
+            </div>
+            <div class="capsule-text-container">
+                <p class="capsule-subtitle">Create your own capsule wardrobe: drag and drop the products below to create a set of 4, 8 or 12 products. </p>
+                <ul>
+                    <li class="capsule-subtitle">4 products = 20+ outfits = 4% discount = a week-end getaway</li>
+                    <li class="capsule-subtitle">8 products = 100+ outfits = 8% discount = a week-long trip </li>
+                    <li class="capsule-subtitle">12 products = 160+ outfits = 12% discount = a true nomad lifestyle</li>
+                <ul>
+            </div>
+            <div class="capsule-wrapper" grid-wishlist>
+            </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <button  style="display:none!important;" class="hidden-quickview-product-test button button--outline button--text button--full"  aria-expanded="false" is="toggle-button" loader=" "><span class="loader-button__text">Quick View</span><span class="loader-button__loader" hidden=" "><div class="spinner"><svg focusable="false" width="24" height="24" class="icon icon--spinne" viewbox="25 25 50 50"><circle cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg></div></span></button>
+
+    <quick-buy-drawer class="quick-drawer-1 drawer drawer--large drawer--quick-buy"></quick-buy-drawer>
+</section>
+
+{% schema %}
+  {
+    "templates": ["page"],
+    "settings": [{
+          "type": "text",
+          "id": "tel",
+          "label": "Phone Number",
+          "info": "Add your phone number."
+        },
+        {
+          "type": "text",
+          "id": "mail",
+          "label": "Mail",
+          "info": "Add your mail."
+        }
+    ]
+    
+  }
+{% endschema %}

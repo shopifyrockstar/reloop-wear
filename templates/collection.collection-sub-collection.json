@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "16409004863e7c07f5": {
+      "type": "multi-column",
+      "blocks": {
+        "164090048635bcebd9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/191447027-2003-3_1200x_1200x_8f4809b5-de03-4bad-8221-a477588c0217.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Preloved",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164090048635bcebd9-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/191447027-2003-3_1200x_1200x_8f4809b5-de03-4bad-8221-a477588c0217.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Outwear",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164090048635bcebd9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/191447027-2003-3_1200x_1200x_8f4809b5-de03-4bad-8221-a477588c0217.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Cardigans",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164090048635bcebd9-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/191447027-2003-3_1200x_1200x_8f4809b5-de03-4bad-8221-a477588c0217.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "And more",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164090048635bcebd9-0",
+        "164090048635bcebd9-2",
+        "164090048635bcebd9-1",
+        "164090048635bcebd9-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": true,
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "featured_links": "main-menu",
+        "category_links": "footer",
+        "other_links": "main-menu",
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "16392256592a9d2d80": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "SUMMER CAPSULE",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225404c1af301f": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1639225404538dc278-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_A.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1639225404538dc278-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1639225404538dc278-0",
+        "1639225404538dc278-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225581b4e003e2": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225664fd07fc91": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "163922566435b396ea-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "163922566435b396ea-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "163922566435b396ea-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "163922566435b396ea-0",
+        "163922566435b396ea-1",
+        "163922566435b396ea-2"
+      ],
+      "settings": {
+        "product": "madrid-capsule",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640900762846d5f91": {
+      "type": "featured-collections",
+      "blocks": {
+        "164090076295651bb0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "button_text": "View all",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "164090076295651bb0-0"
+      ],
+      "settings": {
+        "subheading": "This is slider",
+        "title": "Dresses & Skirts",
+        "content": "<p>So you can choose which one you like better<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409008153ac11644": {
+      "type": "featured-collections",
+      "blocks": {
+        "1640900815c377318a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "",
+            "button_text": "View all",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640900815c377318a-0"
+      ],
+      "settings": {
+        "subheading": "This is stacked",
+        "title": "T-Shirts & Tops",
+        "content": "<p>So you can choose whici one you like better<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "16409004863e7c07f5",
+    "collection-banner",
+    "main",
+    "16392256592a9d2d80",
+    "1639225404c1af301f",
+    "1639225581b4e003e2",
+    "1639225664fd07fc91",
+    "1640900762846d5f91",
+    "16409008153ac11644"
+  ]
+}

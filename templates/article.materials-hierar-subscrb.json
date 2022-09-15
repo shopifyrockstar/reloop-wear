@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#f5f5f5",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": false,
+        "show_date": true,
+        "show_share_buttons": true
+      }
+    },
+    "16547699298c9ee504": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Wide_image_2000_x_980px.png",
+        "subheading": "Subscribe & get your free copy now:",
+        "content": "<p>Get your head around the complex world of sustainable fashion. #LetsReloop<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16547694625b391d3e": {
+      "type": "newsletter-custom",
+      "disabled": true,
+      "settings": {
+        "subheading_left": "Subscribe here >>>",
+        "content_left": "and get your free copy of \"Reloop approved materials hierarchy\" straight to your inbox. Get your head around the complex world of sustainable fashion.",
+        "button_title": "",
+        "button_url": "shopify:\/\/pages\/manifesto",
+        "subheading": "NEWSLETTER",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "disabled": true,
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "16547707426e146150": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>PSST.. YOU CAN PRINT THE TABLE FROM PAGE 15 AND CARRY IT IN YOUR WALLET TO BE ALWAYS AT HAND WHILE MAKING YOUR SHOPPING DECISIONS! ;-)<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654770720df6bd8ea": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654770720cfcee163-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/page_15.png",
+            "tab_label": "PSST.. YOU CAN PRINT THE TABLE FROM PAGE 15 AND CARRY IT IN YOUR WALLET TO BE ALWAYS AT HAND WHILE MAKING YOUR SHOPPING DECISIONS! ;-)",
+            "subheading": "PSST.. YOU CAN PRINT THE TABLE FROM PAGE 15 AND CARRY IT IN YOUR WALLET TO BE ALWAYS AT HAND WHILE MAKING YOUR SHOPPING DECISIONS! ;-)",
+            "title": "",
+            "content": "<p>#LetsReloop<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654770720cfcee163-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654771037098af348": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/page_15.png",
+        "subheading": "PSST.. YOU CAN PRINT THE TABLE FROM PAGE 15 AND CARRY IT IN YOUR WALLET TO BE ALWAYS AT HAND WHILE MAKING YOUR SHOPPING DECISIONS! ;-)",
+        "title": "PSST.. YOU CAN PRINT THE TABLE FROM PAGE 15 AND CARRY IT IN YOUR WALLET TO BE ALWAYS AT HAND WHILE MAKING YOUR SHOPPING DECISIONS! ;-)",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "main",
+    "16547699298c9ee504",
+    "16547694625b391d3e",
+    "blog-post-prev-next",
+    "blog-post-comments",
+    "16547707426e146150",
+    "1654770720df6bd8ea",
+    "1654771037098af348"
+  ]
+}

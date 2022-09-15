@@ -1,0 +1,17 @@
+{% comment %}
+  Shopify Wishlist
+  Usage:
+    - Markup: {%- render 'button-wishlist', product: product -%}
+    - Place this snippet inside your existing product card snippet
+  Parameters:
+    - product: <Shopify product> (required)
+{% endcomment %}
+{%- if product.handle != blank -%}
+    {%- assign handle1 = product.handle -%}
+    {%- if product.selected_variant != nil -%}
+    {%- assign handle1 = handle1 | append: "?variant=" | append: product.selected_variant.id  -%}
+    {%- endif -%}
+  <button class="capsule-button-main-1" button-wishlist-circle isLoaded="false" data-product-handle="{{ handle1 }}">
+  <div class="button-circle-clear"></div>
+  </button>
+{%- endif -%}

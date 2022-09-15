@@ -1,0 +1,691 @@
+{
+  "sections": {
+    "1639243336f2ef1987": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "16392433365268d5bd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/North_America_478d48b4-2789-4ba6-aa04-7594670ce802.png",
+            "mobile_image": "shopify:\/\/shop_images\/North_America_bc828b02-ac8e-4985-986a-c91adabc1252.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "North America",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/north-america-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "16392433365268d5bd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/South_America_5fe84a87-7acb-4c13-b09d-d4c94f30549f.png",
+            "mobile_image": "shopify:\/\/shop_images\/South_America_d77c9743-391d-4471-b4b7-fab8e2b6564b.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "South America",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/south-america-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "5cd4b58b-b5f0-412c-bcbe-387536be9057": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Africa_5c115e83-572c-4b62-9b16-7da68fd1f7a5.png",
+            "mobile_image": "shopify:\/\/shop_images\/Africa_38c14613-d644-43f0-95ad-f83d58ea193b.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "Africa",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/africa",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "03d5df4d-494e-4d4d-90f3-647cecb0363b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Europe.png",
+            "mobile_image": "shopify:\/\/shop_images\/Europe_c1048389-6a81-4ce0-a34b-5baf6e89d9e5.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "Europe",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/europe",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "e42b1d12-5acf-4f39-80a3-4796893d9313": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Middle_East_a2715c0a-f5b7-44c8-8ff6-c9b5375044a0.png",
+            "mobile_image": "shopify:\/\/shop_images\/Middle_East_404411d0-4846-45b4-abd5-9a6f9b10b644.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "Middle East",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/middle-east",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "191e4f13-7db7-4333-a6df-6f3d77212847": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asia_83921e55-8655-4da5-852a-572cce3545a5.png",
+            "mobile_image": "shopify:\/\/shop_images\/Asia_9c7234cc-7016-4325-b25e-5202bf6f3196.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "Asia",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/asia",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "ec9c895f-2351-47b7-b446-e2903920a6a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Australia_f21b96b6-5083-4baa-9645-3a3e15e5ed17.png",
+            "mobile_image": "shopify:\/\/shop_images\/Australia_46408ad3-1b24-4aa8-b864-577cd980e2bf.png",
+            "text_position": "middle_center",
+            "subheading": "Where are you heading next?",
+            "title": "Australia",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/australia",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "16392433365268d5bd-0",
+        "16392433365268d5bd-1",
+        "5cd4b58b-b5f0-412c-bcbe-387536be9057",
+        "03d5df4d-494e-4d4d-90f3-647cecb0363b",
+        "e42b1d12-5acf-4f39-80a3-4796893d9313",
+        "191e4f13-7db7-4333-a6df-6f3d77212847",
+        "ec9c895f-2351-47b7-b446-e2903920a6a8"
+      ],
+      "settings": {
+        "desktop_main_image": "shopify:\/\/shop_images\/Asia_83921e55-8655-4da5-852a-572cce3545a5.png",
+        "banner_title": "Where are you heading next?",
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639255254ebd69104": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>We create circular capsule wardrobes for conscious travellers<br\/>who want to explore the world sustainably and worry-free. <br\/>#LetsReloop<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "163925533483b980d1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "5 PIECES = 30 OUTFITS",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#0f9453",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16392586263b16daa1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Mix and match five versatile pieces <br\/>to create your own travel capsule wardrobe.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164786793110874869": {
+      "type": "slideshow",
+      "blocks": {
+        "16478679310e1f2bde-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_B_2.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0
+          }
+        },
+        "16478679310e1f2bde-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "16478679310e1f2bde-0",
+        "16478679310e1f2bde-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639255433ce50d874": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_B.png",
+        "subheading": "test",
+        "title": "test",
+        "content": "<p>test<\/p>",
+        "button_text": "test",
+        "button_link": "shopify:\/\/collections\/africa",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#f4eae6",
+        "overlay_opacity": 0
+      }
+    },
+    "16392605251c252101": {
+      "type": "featured-collection-custom",
+      "blocks": {
+        "1639260525c623ac14-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "europe",
+            "label": "EUROPE",
+            "price_one": "x",
+            "price_two": "x",
+            "collection_link": "shopify:\/\/collections\/europe",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "57270f61-4aa5-4f9e-affe-d88a855350a5": {
+          "type": "collection",
+          "settings": {
+            "collection": "asia",
+            "label": "ASIA",
+            "price_one": "x",
+            "price_two": "x",
+            "collection_link": "shopify:\/\/collections\/asia",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "45b0abe8-aaa0-44ac-baa1-8d09903427d2": {
+          "type": "collection",
+          "settings": {
+            "collection": "africa",
+            "label": "AFRICA",
+            "price_one": "",
+            "price_two": "",
+            "collection_link": "shopify:\/\/collections\/africa",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639260525c623ac14-0",
+        "57270f61-4aa5-4f9e-affe-d88a855350a5",
+        "45b0abe8-aaa0-44ac-baa1-8d09903427d2"
+      ],
+      "settings": {
+        "subheading": "BROWSE THROUGH OUR READILY MADE TRAVEL CAPSULE WARDROBES:",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 6,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16392569543c9e9bb6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "ABOUT RELOOP WEAR",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639256887dc003603": {
+      "type": "text-with-icons",
+      "blocks": {
+        "dc2a6d40-c18e-4edf-9ffa-60c51dd21b62": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Green__36.png",
+            "title": "CAPSULE WARDROBE",
+            "content": "<p>We create capsule collections for conscious travellers just like you. Functional, seasonless and circularly made; to be used anywhere you go, anytime you go. Designed per destination, NOT the fashion trends.<\/p>"
+          }
+        },
+        "16392568873f8d4c22-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Green__90.png",
+            "title": "CONSCIOUS TRAVELLING",
+            "content": "<p>We really believe our individual choices can contribute to a better planet. Sometimes big change starts with a tiny little step, even as simple as transforming your wardrobe and the way you pack for your journeys.<\/p>"
+          }
+        },
+        "16392568873f8d4c22-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Green__46.png",
+            "title": "CIRCULAR DESIGN",
+            "content": "<p>Just like we always come back home after a long journey, we want our clothes to close the loop and end up at the right place, not the landfill. That’s why we believe circularity should be the way to go. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dc2a6d40-c18e-4edf-9ffa-60c51dd21b62",
+        "16392568873f8d4c22-0",
+        "16392568873f8d4c22-1"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639395901683b1285": {
+      "type": "promotion-featured-categories",
+      "blocks": {
+        "163939590147ce550b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.png",
+            "title": "Most wanted",
+            "link_text": "See all",
+            "link_url": "shopify:\/\/collections\/most-wanted",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "163939590147ce550b-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/South_America_d77c9743-391d-4471-b4b7-fab8e2b6564b.png",
+            "title": "Tops",
+            "link_text": "See All",
+            "link_url": "shopify:\/\/collections\/t-shirts-tops",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "55d63228-cb05-4b5c-919f-d185b96a2953": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29.png",
+            "title": "Dresses",
+            "link_text": "See All",
+            "link_url": "shopify:\/\/collections\/dresses-skirts",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "fb1793de-42fc-4968-bf71-b1e2a1fd9d41": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/REPAIR_KIT.png",
+            "title": "Our repair kit",
+            "link_text": "See All",
+            "link_url": "shopify:\/\/collections\/repair-kit",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "163939590147ce550b-0",
+        "163939590147ce550b-2",
+        "55d63228-cb05-4b5c-919f-d185b96a2953",
+        "fb1793de-42fc-4968-bf71-b1e2a1fd9d41"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "FEATURED CATEGORIES",
+        "section_size": "large",
+        "stack_on_mobile": true,
+        "background": "#f7f5f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16395591543b26e9b3": {
+      "type": "featured-collections",
+      "blocks": {
+        "16395591547c0a34e1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "europe",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16395591547c0a34e1-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Featured Products",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654705150aceec4de": {
+      "type": "shop-the-look",
+      "blocks": {
+        "16547051491968e08c-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asia_83921e55-8655-4da5-852a-572cce3545a5.png",
+            "mobile_image": "shopify:\/\/shop_images\/Asia_9c7234cc-7016-4325-b25e-5202bf6f3196.png",
+            "dot_type": "normal",
+            "product_1": "buttoned-up-lyocell-blouse-a-la-kimono-to-do",
+            "product_1_horizontal_position": 51,
+            "product_1_vertical_position": 40,
+            "product_1_horizontal_position_mobile": 50,
+            "product_1_vertical_position_mobile": 63,
+            "product_2": "high-waist-quick-dry-shorts-lyocell-linen-to-do",
+            "product_2_horizontal_position": 43,
+            "product_2_vertical_position": 65,
+            "product_2_horizontal_position_mobile": 43,
+            "product_2_vertical_position_mobile": 71,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "70774042-b313-4b19-b09e-85885d5ae769": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 30,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "16547051491968e08c-0",
+        "70774042-b313-4b19-b09e-85885d5ae769"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "16392576047a3087cf": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "travel-capsule-wardrobe",
+        "subheading": "Stay up-to-date",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639257554345923c8": {
+      "type": "gallery",
+      "blocks": {
+        "1639257554eac4c54a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/to_be_reused_w__diff_txt.png",
+            "caption": "<p><a href=\"https:\/\/www.instagram.com\/p\/CZZTVI5r0lR\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/p\/CZZTVI5r0lR\/\">Take me to this post<\/a><\/p>"
+          }
+        },
+        "1639257554eac4c54a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JAN_7.png",
+            "caption": ""
+          }
+        },
+        "1639257554eac4c54a-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JAN_5.png",
+            "caption": ""
+          }
+        },
+        "e4e9bf71-5a8e-4109-873e-043f7d58d627": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FEB_8.png",
+            "caption": ""
+          }
+        },
+        "33c11ed4-5fc1-4780-8226-c76e6a1320b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "caption": ""
+          }
+        },
+        "ec0565e9-fb4d-4d12-a64f-7b6bf719e851": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/to_be_reused.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639257554eac4c54a-0",
+        "1639257554eac4c54a-1",
+        "1639257554eac4c54a-2",
+        "e4e9bf71-5a8e-4109-873e-043f7d58d627",
+        "33c11ed4-5fc1-4780-8226-c76e6a1320b3",
+        "ec0565e9-fb4d-4d12-a64f-7b6bf719e851"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "TOGETHER ON SOCIAL MEDIA",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16396516905e21279b": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Rethinking the way we pack, the way we travel, and the way we dress.  We create travel capsule wardrobes for conscious travellers, just like you. Designed with circularity at every step of the journey.  Because fashion shouldn’t cost us the Earth. #LetsReloop.",
+        "button_title": "Our story",
+        "button_url": "shopify:\/\/pages\/manifesto",
+        "subheading": "EVERY BIG JOURNEY STARTS WITH A TINY STEP",
+        "one-section": "Relooped Community",
+        "two-section": "Exclusive Offers",
+        "three-section": "Inspirations",
+        "content": "Join our community of conscious travellers and get all the relooped news, plus exclusive offers and inspiration delivered straight to your inbox.",
+        "subheading_2": "NO SPAM, we promise.  Your mailbox, your choice:"
+      }
+    },
+    "166239330805977462": {
+      "type": "newsletter-custom",
+      "disabled": true,
+      "settings": {
+        "subheading_left": "Newsletter Title",
+        "content_left": "Promotions, new products and sales. Directly to your inbox",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "one-section": "Relooped Community",
+        "two-section": "Exclusive Offers",
+        "three-section": "Inspirations",
+        "content": "Promotions, new products and sales. Directly to your inbox",
+        "subheading_2": "Subscribe to our newsletter"
+      }
+    }
+  },
+  "order": [
+    "1639243336f2ef1987",
+    "1639255254ebd69104",
+    "163925533483b980d1",
+    "16392586263b16daa1",
+    "164786793110874869",
+    "1639255433ce50d874",
+    "16392605251c252101",
+    "16392569543c9e9bb6",
+    "1639256887dc003603",
+    "1639395901683b1285",
+    "16395591543b26e9b3",
+    "1654705150aceec4de",
+    "16392576047a3087cf",
+    "1639257554345923c8",
+    "16396516905e21279b",
+    "166239330805977462"
+  ]
+}

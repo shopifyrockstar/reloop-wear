@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#fafafa",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "1639231035b58bcc81": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1639231035c2bc19c3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ruins-or-jerash-museum-in-jordan.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "JORDAN",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6
+          }
+        },
+        "1639231035c2bc19c3-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1639231035c2bc19c3-0",
+        "1639231035c2bc19c3-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16392310940ee754d7": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16392310946896e082-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-address",
+            "title": "CAPITAL",
+            "content": "<p>Amman<\/p>"
+          }
+        },
+        "16392310946896e082-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "title": "LANGUAGE",
+            "content": "<p>Arabic<\/p>"
+          }
+        },
+        "16392310946896e082-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-worldwide",
+            "title": "Population",
+            "content": "<p>10.2 Million<\/p>"
+          }
+        },
+        "16392310946896e082-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "title": "Currency",
+            "content": "<p>JOD - Jordanian Dinar<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16392310946896e082-0",
+        "16392310946896e082-1",
+        "16392310946896e082-2",
+        "16392310946896e082-3"
+      ],
+      "settings": {
+        "background": "#f7f4f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": false,
+        "show_date": true,
+        "show_share_buttons": true
+      }
+    },
+    "1639231426ebd6b118": {
+      "type": "featured-collections",
+      "blocks": {
+        "b7b34e29-fc70-49e9-bf56-f701d2e1443f": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Spring",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "16392314263c0f7261-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Winter",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "83ada493-0c03-4465-b80d-f899a13a100d": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Summer",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "450555b3-7c2e-47c7-8968-83895bb8c549": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Fall",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7b34e29-fc70-49e9-bf56-f701d2e1443f",
+        "16392314263c0f7261-0",
+        "83ada493-0c03-4465-b80d-f899a13a100d",
+        "450555b3-7c2e-47c7-8968-83895bb8c549"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "WHEN ARE YOU GOING THERE?",
+        "content": "<p>The best time to visit Jordan is in Spring (March-May) or Autumn (September-November), although both of them as seasons are hardly ever felt in Jordan - they usually last only a couple of weeks. <\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16443142003c3bf733": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "CONSCIOUS TRAVELLING RECOMMENDATIONS",
+        "liquid": "<p style=\"text-align: center\"> <iframe src=\"https:\/\/www.google.com\/maps\/d\/u\/1\/embed?mid=15DXHJi945DRy1jzEHsiNy8SJ6fonAaFN&ehbc=2E312F\" width=\"100%\" height=\"480\"><\/iframe> <\/p>",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639231420f35e1556": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Weather",
+        "content": "<p>The best time to visit Jordan is March through May (Spring) or September through November (Autumn), where the weather is perfect for you to explore the city comfortably in daylight and it’s not too hot to hike. Still, I’d like to add that Spring and Autumn as seasons are hardly ever felt in Jordan. They are usually a couple of weeks. The two main seasons are Summer and Winter.<\/p><p>Summer's hottest months are July and August where temperature can reach up to 36°C, so it might be wise not to do your trip there during these months unless you’re fine with the heat. <\/p><p>Also bear in mind that the south where you can find Petra, Wadi Rum and Aqaba, are usually warmer than the Capital Amman, which is in the north-central of Jordan.<\/p><p>Jordan experiences snow in Winter (December through February) and the nights get cold up to 3°C especially in the desert regions. Winter is also when most of the rain falls, but showers are usually short and sharp.<\/p><p><strong>AVERAGE TEMPERATURE IN AMMAN:<\/strong><\/p><p><strong>March - May <br\/><\/strong>Maximum Temperature  18°C –28°C    <br\/>Minimum Temperature 7°C –15°C<\/p><p><strong>September - November<br\/><\/strong>Maximum Temperature 20°C - 31°C<br\/>Minimum Temperature  10°C - 18°C<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16443133895f9cc0a3": {
+      "type": "multiple-switcher",
+      "blocks": {
+        "16443133899612a9c5-0": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "MOVE",
+            "paragraph": ""
+          }
+        },
+        "f903c755-b6f5-46f0-aba6-76859826c155": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "STAY",
+            "paragraph": ""
+          }
+        },
+        "db3ec111-7198-4e3e-8e9f-27167f2c1b25": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "EAT",
+            "paragraph": ""
+          }
+        },
+        "fde474f9-1572-4b05-b0f4-ad7a5dd7ce51": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "SHOP",
+            "paragraph": ""
+          }
+        },
+        "a32c7a57-229c-4a1a-a123-88b89d5c5f7c": {
+          "type": "multiple-switcher",
+          "settings": {
+            "title": "EXPLORE",
+            "paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "16443133899612a9c5-0",
+        "f903c755-b6f5-46f0-aba6-76859826c155",
+        "db3ec111-7198-4e3e-8e9f-27167f2c1b25",
+        "fde474f9-1572-4b05-b0f4-ad7a5dd7ce51",
+        "a32c7a57-229c-4a1a-a123-88b89d5c5f7c"
+      ],
+      "settings": {
+      }
+    },
+    "166239423669c017d2": {
+      "type": "show-hide-text-rich",
+      "settings": {
+        "title": "How to move around?",
+        "paragraph": "<p>Most Jordanians move around with cars or buses. Although in some areas buses might not be that accessible. Taxing taxis or an Uber is relatively cheap in Jordan compared to Europe. It is possible to walk to places depending where you’re staying and where you’d like to go, but biking might not be that convenient with Amman’s hills and steep valleys. here are some car rental companies that you can check out: Reliable , Montecarlo<\/p>"
+      }
+    },
+    "1644313010d76d75f5": {
+      "type": "show-hide-text",
+      "settings": {
+        "title": "Authentic Jordanian food with vegan options",
+        "content": "It might be tricky to find some good vegan food in Jordan, but if you’re in the capital, you might find some restaurants that offer authentic Jordanian food with vegan options. A great one would be: Sufra Restaurant. It's also located in Rainbow Street (at the 1st circle close to downtown Amman), a beautiful old neighborhood that is full of cafes, restaurant art galleries and local shops."
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+        "show_gravatar": true
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "1639231035b58bcc81",
+    "16392310940ee754d7",
+    "main",
+    "1639231426ebd6b118",
+    "16443142003c3bf733",
+    "1639231420f35e1556",
+    "16443133895f9cc0a3",
+    "166239423669c017d2",
+    "1644313010d76d75f5",
+    "blog-post-prev-next",
+    "blog-post-comments"
+  ]
+}

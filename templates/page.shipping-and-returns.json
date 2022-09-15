@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16409463842ce016c9": {
+      "type": "slideshow",
+      "blocks": {
+        "164094638421161a52-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Africa_38c14613-d644-43f0-95ad-f83d58ea193b.png",
+            "mobile_image": "shopify:\/\/shop_images\/Africa_38c14613-d644-43f0-95ad-f83d58ea193b.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SHIPPING & RETURNS",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "164094638421161a52-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1640946423171cd769": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>WORK IN PROGRESS<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16475146714f08873c": {
+      "type": "faq",
+      "blocks": {
+        "75ff2c7f-9162-4a5a-a0eb-5ab527f6acc7": {
+          "type": "category",
+          "settings": {
+            "title": "PRE-ORDERS"
+          }
+        },
+        "3bb9933c-6b68-4bf8-bc3f-8b2378f7541d": {
+          "type": "question",
+          "settings": {
+            "title": "Subject of Pre-orders",
+            "answer": "<p>Pre-ordering means ordering  upfront the products, that weren't yet produced and that you will receive only few weeks later. This model is beneficial for you, us and the environment. Here's why:<\/p><p>By introducing pre-orders, we want to eliminate the fashion overproduction problem and therefore waste (for both garment and materials). Knowing the demand ahead of time, allows us to adjust the supply and produce responsibly with the quantities calculated upfront, which is a sustainable alternative to a mass-production. Being a small circular brand, it also helps us to manage our investment better and reduce the risk of being left with unsold items.<\/p><p>What's in it for you? Not only you receive a discount in return for your patience, but most importantly it's a great practice of conscious shopping. Longer waiting time minimises the chances of compulsive buying and encourages thoughtful decision making process. By choosing to pre-order you support the sustainable sale models and contribute to a positive change in the fashion industry. Plus, you are the first one to get the new arrival and help us shape the way our products are designed :) <\/p>"
+          }
+        },
+        "df31072c-7da5-44e5-a1d9-1c85aea6a49b": {
+          "type": "question",
+          "settings": {
+            "title": "Discounts for pre-orders",
+            "answer": "<p>When available, the discount will be applied at the check-out to your pre-ordered item. <\/p>"
+          }
+        },
+        "a5a1cb1d-c35b-40c7-a0a7-c716a0ab05dc": {
+          "type": "question",
+          "settings": {
+            "title": "Expected delivery time",
+            "answer": "<p>....<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "75ff2c7f-9162-4a5a-a0eb-5ab527f6acc7",
+        "3bb9933c-6b68-4bf8-bc3f-8b2378f7541d",
+        "df31072c-7da5-44e5-a1d9-1c85aea6a49b",
+        "a5a1cb1d-c35b-40c7-a0a7-c716a0ab05dc"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "TERMS AND CONDITIONS of our shipping and returns",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647515786d332b231": {
+      "type": "faq",
+      "blocks": {
+        "1647515786644abc44-0": {
+          "type": "category",
+          "settings": {
+            "title": "RETURNS"
+          }
+        },
+        "1647515786644abc44-1": {
+          "type": "question",
+          "settings": {
+            "title": "Subject of Return",
+            "answer": "<p>Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.<br\/><br\/>To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging. and contain all original tags.<br\/><br\/>Several types of goods are exempt from being returned. Perishable goods and preloved items cannot be returned. We also do not accept products that are intimate or sanitary goods.<br\/><br\/>Additional non-returnable items:<br\/>• Gift cards<br\/>• Downloadable software products<br\/>• Health and personal care items<br\/>• Preloved products<br\/><br\/>To complete your return, we require a receipt or proof of purchase.<br\/>Please do not send your purchase back to the manufacturer.<\/p><p><\/p>"
+          }
+        },
+        "1647515786644abc44-2": {
+          "type": "question",
+          "settings": {
+            "title": "Refunds",
+            "answer": "<p><strong>Partial refunds<br\/><\/strong>There are certain situations where only partial refunds are granted:  <br\/>* Book with obvious signs of use<br\/>* CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that has been opened.<br\/>* Any item not in its original condition, is damaged or missing parts for reasons not due to our error.<br\/>* Any item that is returned more than 30 days after delivery<br\/><\/p><p><strong>Refunds  <\/strong><br\/>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.<br\/>If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.<\/p><p><\/p><p><strong>Late or missing refunds <\/strong> <br\/>If you haven’t received a refund yet, first check your bank account again.<br\/>Then contact your credit card company, it may take some time before your refund is officially posted. <br\/>Next contact your bank. There is often some processing time before a refund is posted.<br\/>If you’ve done all of this and you still have not received your refund yet, please contact us at hello@reloopwear.com.<br\/>Sale items (if applicable)<br\/>Only regular priced items may be refunded, unfortunately sale items cannot be refunded.<\/p>"
+          }
+        },
+        "1647515786644abc44-4": {
+          "type": "question",
+          "settings": {
+            "title": "Exchanges",
+            "answer": "<p>We only replace items if they are defective or damaged at our cost.  If you need to exchange it for the same item, send us an email at hello@reloopwear.com along with the picture of the damage and if approved, send your item to: Fichtenstraße 9A, Füssen, 87629, Germany. <\/p><p>Please bear in mind the defect allowance within each product. <\/p><p>Handmade products are not subject of the defect or damage claim.<br\/><\/p>"
+          }
+        },
+        "9a7cf11f-2a71-4fb7-a49a-2e6ffe4548ba": {
+          "type": "question",
+          "settings": {
+            "title": "Gifts",
+            "answer": "<p>If the item was marked as a gift when purchased and shipped directly to you, you’ll receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.<br\/><br\/>If the item wasn’t marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send a refund to the gift giver and he will find out about your return. <\/p>"
+          }
+        },
+        "297cb268-36c2-40ff-bcd5-f3b5b4b64c57": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping",
+            "answer": "<p>To return your product, you should mail your product to: Fichtenstraße 9A, Füssen, 87629, Germany.<br\/><br\/>You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.<br\/><br\/>Depending on where you live, the time it may take for your exchanged product to reach you, may vary.<br\/><br\/>If you are shipping an item over 75 EUR you should consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.<\/p>"
+          }
+        },
+        "6641c70c-e714-44bd-962b-6396bf3d8e1c": {
+          "type": "category",
+          "settings": {
+            "title": "OTHER"
+          }
+        },
+        "887be333-756a-423e-bbbc-0320e14461ee": {
+          "type": "question",
+          "settings": {
+            "title": "Questions?",
+            "answer": "<p>You can always contact us through our <a href=\"\/pages\/contact-us-we-love-meeting-people-who-share-our-values\" title=\"Contact us! We love meeting people who share our values.\">contact page<\/a>! We will be happy to assist you. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647515786644abc44-0",
+        "1647515786644abc44-1",
+        "1647515786644abc44-2",
+        "1647515786644abc44-4",
+        "9a7cf11f-2a71-4fb7-a49a-2e6ffe4548ba",
+        "297cb268-36c2-40ff-bcd5-f3b5b4b64c57",
+        "6641c70c-e714-44bd-962b-6396bf3d8e1c",
+        "887be333-756a-423e-bbbc-0320e14461ee"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1641543463d777f29f": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more.  #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Newsletter",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16409463842ce016c9",
+    "1640946423171cd769",
+    "16475146714f08873c",
+    "1647515786d332b231",
+    "1641543463d777f29f"
+  ]
+}

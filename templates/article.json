@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "disabled": true,
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#f5f5f5",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "1639231035b58bcc81": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1639231035c2bc19c3-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "RELOOP STORY",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6
+          }
+        },
+        "1639231035c2bc19c3-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1639231035c2bc19c3-0",
+        "1639231035c2bc19c3-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": false,
+        "show_date": false,
+        "show_share_buttons": false
+      }
+    },
+    "16392310940ee754d7": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "16392310946896e082-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-address",
+            "title": "CAPITAL",
+            "content": "<p>Madrid<\/p>"
+          }
+        },
+        "16392310946896e082-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-worldwide",
+            "title": "LANGUAGE",
+            "content": "<p>Spanish<\/p>"
+          }
+        },
+        "16392310946896e082-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "title": "Population",
+            "content": "<p>47 Million<\/p>"
+          }
+        },
+        "16392310946896e082-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "title": "Currency",
+            "content": "<p>Euro<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16392310946896e082-0",
+        "16392310946896e082-1",
+        "16392310946896e082-2",
+        "16392310946896e082-3"
+      ],
+      "settings": {
+        "background": "#f7f4f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1639231420f35e1556": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Weather",
+        "content": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639231426ebd6b118": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "b7b34e29-fc70-49e9-bf56-f701d2e1443f": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Spring",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "16392314263c0f7261-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Winter",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "83ada493-0c03-4465-b80d-f899a13a100d": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Summer",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "450555b3-7c2e-47c7-8968-83895bb8c549": {
+          "type": "collection",
+          "settings": {
+            "collection": "capsule-test",
+            "label": "Fall",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7b34e29-fc70-49e9-bf56-f701d2e1443f",
+        "16392314263c0f7261-0",
+        "83ada493-0c03-4465-b80d-f899a13a100d",
+        "450555b3-7c2e-47c7-8968-83895bb8c549"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "WHEN ARE yo going?",
+        "content": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "16392315542901434f": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "1639231035b58bcc81",
+    "main",
+    "16392310940ee754d7",
+    "blog-post-prev-next",
+    "1639231420f35e1556",
+    "1639231426ebd6b118",
+    "blog-post-comments",
+    "16392315542901434f"
+  ]
+}

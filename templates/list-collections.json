@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "a2ac1146-2bb9-44dc-8a81-070371c51c74": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/22.png",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "89e48727-e100-44d9-854b-c24f8611b173": {
+          "type": "collection",
+          "settings": {
+            "collection": "africa",
+            "image": "shopify:\/\/shop_images\/Africa_8e47817c-1735-45ab-b9ab-4c09181fd639.png",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "a2ac1146-2bb9-44dc-8a81-070371c51c74",
+        "89e48727-e100-44d9-854b-c24f8611b173"
+      ],
+      "settings": {
+        "collections_to_show": "all",
+        "show_collection_title": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

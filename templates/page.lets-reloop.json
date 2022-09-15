@@ -1,0 +1,217 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647533959dd0def56": {
+      "type": "timeline",
+      "blocks": {
+        "164753395955e5a477-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "label": "1 | BUY",
+            "title": "INVEST IN QUALITY AND LONGEVITY",
+            "content": "<p>Find your favourite new or preloved Reloop Wear, invest into it and love it every day. <\/p><p>Before that, please think if you REALLY need new clothes. Perhaps you will find the same model in the <strong>Preloved Section <\/strong>of our store? <\/p><p>Second of all, treat your purchase as an investment, because when you will want to change it, you can get part of your money back by <strong>reselling <\/strong>it or <strong>returning to recycle<\/strong>. for a small incentive in return.<\/p><p>Also, keep an eye on our <strong>Preorders section<\/strong>, through which we can minimise the amount of new clothes produced TOGETHER. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "164753395955e5a477-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand-reaching-for-basket-of-clothes.jpg",
+            "label": "2 | USE",
+            "title": "minimise your own impact",
+            "content": "<p>The way we use our clothes has an impact. Please DO follow carefully the <strong>laundry instructions<\/strong> and skip tumble drying when possible. We want to help you take best care of your loved items - please help us prove their longevity by taking good care of them.<\/p><p>If you purchased a product containing polyester, please consider reducing the amount of its washes, or ideally investing in washing machine filters and\/or washing bags. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "164753395955e5a477-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sewing-supplies-flatlay.jpg",
+            "label": "3 | REPAIR",
+            "title": "Repair instead of throwing \"away\"",
+            "content": "<p>Many of our clothes has spare buttons and threads for an ease of repairing - please search for them on the care label or the inner seams. <\/p><p>We also offer <a href=\"\/collections\/repair-kit\" title=\"Repair kits \/ Care products\">Repair Kits<\/a> to make this process smooth and enjoyable for you. Occasionally, we organize the Repair Events, to help you get your favourite items repaired. <\/p><p>Follow us on our Social Channels to learn how to fix our clothes and when our Repair Events take place. Check Google Maps for the local alteration services, if you'd prefer to hand it over to a professional. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "6f48d156-7fd3-4356-90da-ccf20dfb8457": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light-green-t-shirt.jpg",
+            "label": "4 | RESELL",
+            "title": "GET YOUR INVESTMENT BACK",
+            "content": "<p>Now that you invested in either new or preloved relooped item, you can easily <strong>sell it back through our online store<\/strong>. <\/p><p>No worries! After 1 year we will send your a reminder to reloop your favourite item and all you need to do is to ship it back or drop it off by our point<\/p><p>Simply manage your orders in<strong> Your Account <\/strong>and <strong>submit a form<\/strong> with the picture of your clothes for an expert review. We will then coordinate the entire resale process with you. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "cbf9a197-31d5-4214-bdef-4290b3ba0d09": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-clothes-hangers-cling-emptily-to-the-shiny-shop-rack.jpg",
+            "label": "5 | RETURN TO RECYCLE",
+            "title": "end of lifecycle instead of throwing \"away\"",
+            "content": "<p>We design our clothes with <strong>circularity <\/strong>in mind, which means that most of them can be <strong>biodegraded or recycled <\/strong>at the end of their useful cycle. <\/p><p>If you believe that your product can't be repaired or resold any more, please <strong>submit a form<\/strong> with us for an extra review from our end. If it meets the conditions, we will <strong>take it back <\/strong>and <strong>coordinate the end of lifecycle <\/strong>process. <\/p><p>In return for closing the loop, we will share with you an <strong>incentive <\/strong>to use for your next purchase. <\/p><p>Let's reloop! <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164753395955e5a477-0",
+        "164753395955e5a477-1",
+        "164753395955e5a477-2",
+        "6f48d156-7fd3-4356-90da-ccf20dfb8457",
+        "cbf9a197-31d5-4214-bdef-4290b3ba0d09"
+      ],
+      "settings": {
+        "subheading": "IT'S EASIER THAN YOU THINK!",
+        "title": "RELOOP IN 5 SIMPLE STEPS:",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647537861d3f6020b": {
+      "type": "multi-column",
+      "blocks": {
+        "1647537860c3de1171-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green__64.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "buy new\/preloved",
+            "content": "<p>Minimise your impact and consider creating a <a href=\"\/collections\/by-destination\" title=\"By Destination\">Capsule Wardrobe<\/a> approach or buying a <a href=\"\/collections\/pre-loved-1\" title=\"Pre-loved\">Preloved item<\/a> instead of a new one. <\/p><p>Remember: if you purchased our products and took good care of them, you can get part of the invested money back, through our <a href=\"\/pages\/resell\" title=\"Resell - TO DO\">resell <\/a>& <a href=\"\/pages\/recycle\" title=\"Recycle - TO DO\">return to recycle<\/a> program.<\/p>",
+            "link_text": "find your new favourite",
+            "link_url": "shopify:\/\/collections\/pre-loved-1",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1647537860c3de1171-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green__35.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "repair",
+            "content": "<p>There's no such thing as \"away\" Instead of throwing clothes \"away\", do your best to keep them in shape for long or repair them when needed.<\/p><p>Keep an eye on our <a href=\"https:\/\/www.instagram.com\/reloop.wear\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/reloop.wear\/\">Social Media<\/a> channels for useful hints and tips on how to repair your clothes and the announcements on our occasional Repair Events take place. <\/p>",
+            "link_text": "Find your repair kit",
+            "link_url": "shopify:\/\/collections\/repair-kit",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1647537860c3de1171-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green__39.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "resell",
+            "content": "<p>Minimise your wardrobe by reselling the items you are not wearing anymore. <\/p><p>The process is simple and you can find it <a href=\"\/pages\/resell\" title=\"Resell - TO DO\">here<\/a>. All you need to do is to take picture of your relooped product, go to Your Account and submit a form. Our team will guide you through the rest of the process. <\/p><p><\/p>",
+            "link_text": "Go to My Account",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1647537860c3de1171-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green__45.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "return to recycle",
+            "content": "<p>Reloop your favourite item by Returning it to recycling or biodegrading. <\/p><p>We will guide you on how you can disassemble your garment to be safely disposed at the end of its useful cycle and shipped back to us, so that we can take care of it and prevent from ending up in the landfills. <\/p>",
+            "link_text": "Learn more & fill in the form",
+            "link_url": "shopify:\/\/pages\/recycle",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1647537860c3de1171-0",
+        "1647537860c3de1171-1",
+        "1647537860c3de1171-2",
+        "1647537860c3de1171-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "keen to learn more?",
+        "title": "our re-take program's details:",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647508878ba2cc522": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "IS ANYTHING UNCLEAR? WE'RE HAPPY TO ASSIST!",
+        "title": "",
+        "content": "<p>Your questions and feedback will help us improve our programs. <br\/>Please do not hesitate to reach out: <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "5f81b49e-f481-4d63-a9e7-267be8c55340": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Custom field",
+            "use_long_text": false,
+            "is_required": true
+          }
+        }
+      },
+      "block_order": [
+        "5f81b49e-f481-4d63-a9e7-267be8c55340"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "<p><strong>EMAIL US <br\/><\/strong>any time at <em>hello@reloopwear.com <\/em><br\/>we respond typically within 48 hours on the business days.<\/p><p><strong>OR CALL US<br\/><\/strong>between Monday and Friday, 9:00AM - 5:00PM <br\/>at +49 (151) 53946604<\/p><p><\/p><p><em>By submitting your message, you agree to our Privacy Policy available <\/em><a href=\"\/pages\/reloop-wear-privacy-statement\" target=\"_blank\" title=\"Reloop Wear Privacy Statement\"><em>right here<\/em><\/a><em>.<\/em><\/p>",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647533959dd0def56",
+    "1647537861d3f6020b",
+    "1647508878ba2cc522",
+    "contact-form"
+  ]
+}

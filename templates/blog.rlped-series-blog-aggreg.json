@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "show_blog_title": true,
+        "show_tags": true,
+        "show_category": true,
+        "show_excerpt": true,
+        "articles_per_page": 3
+      }
+    },
+    "16392281056b7be987": {
+      "type": "slideshow",
+      "blocks": {
+        "163922810543acde78-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "text_position": "middle_center",
+            "subheading": "browse through our curated",
+            "title": "relooped series",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "163922810543acde78-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "163922810543acde78-0",
+        "163922810543acde78-1"
+      ],
+      "settings": {
+        "section_height": "fit",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16547842316818441e": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "travel-capsule-wardrobe",
+        "subheading": "SKIP THE PACKING HEADACHE. CHECK OUR HINTS AND TIPS ON HOW TO PACK LIGHT AND FOCUS ON EXPERIENCING YOUR JOURNEY INSTEAD OF WORRYING ABOUT YOUR LUGGAGE. SAY HELLO TO YOUR PERFECT TRAVEL CAPSULE WARDROBE.",
+        "title": "TRAVEL CAPSULE WARDROBE DIARIES",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639227824689ac279": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "travel-logs",
+        "subheading": "TRAVEL CONSCIOUSLY AND SUSTAINABLY. CHECK OUR SUSTAINABLE TRAVEL EXPERIENCES MAP AND CREATE WITH IT YOUR PLANET-FRIENDLY ITINERARY AND DESTINATION-TAILORED TRAVEL CAPSULE WARDROBES.",
+        "title": "CONSCIOUS TRAVEL LOGS",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16547843930cea610b": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "relooped-series",
+        "subheading": "EVERYTHING ABOUT CIRCULAR DESIGN AND SUSTAINABLE FASHION IN ONE PLACE. EVERYTHING WE WANT TO SHARE TO SPREAD THE WORD. BECAUSE TOGETHER WE CAN DO MORE.",
+        "title": "SUSTAINABILITY JOURNALS",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165478489023c8d6d8": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "relooped-news",
+        "subheading": "IN OTHER WORDS: EVERYTHING WE FEEL PROUD TO SHARE WITH YOU! :-)",
+        "title": "RELOOPED NEWS",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165478438829ada96c": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "165478438845af206c-0": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "165478438845af206c-1": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "165478438845af206c-2": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "165478438845af206c-0",
+        "165478438845af206c-1",
+        "165478438845af206c-2"
+      ],
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165478561887d0f5f6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "don't miss any new texts.",
+        "title": "join our community of conscious travellers",
+        "content": "<p>and drop your email address below. You have a full control over what you will be reading about. Simply customize your options in the newsletter box below or in your account. <\/p><p>Alternatively, follow us on our Social Channels, like Instagram. <\/p><p>#LetsReloop<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654785534db837097": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more. #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "shopify:\/\/pages\/our-circular-roadmap",
+        "subheading": "NEWSLETTER",
+        "one-section": "Relooped Community",
+        "two-section": "Exclusive Offers",
+        "three-section": "Inspirations",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16392281056b7be987",
+    "16547842316818441e",
+    "1639227824689ac279",
+    "16547843930cea610b",
+    "165478489023c8d6d8",
+    "165478438829ada96c",
+    "165478561887d0f5f6",
+    "1654785534db837097"
+  ]
+}

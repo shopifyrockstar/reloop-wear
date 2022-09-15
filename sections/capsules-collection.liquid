@@ -1,0 +1,245 @@
+<section>
+    <div class="container">
+        <div class="page-header">
+            <nav aria-label="{{ 'general.breadcrumb.title' | t }}"
+                class="breadcrumb breadcrumb--floating text--xsmall hidden-phone">
+                <ol class="breadcrumb__list" role="list">
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <span class="breadcrumb__link" aria-current="page">{{ page.title }}</span>
+                    </li>
+                </ol>
+            </nav>
+            <div class="page-header__text-wrapper text-container">
+                {%- if section.settings.show_title -%}
+                <h1 class="heading h2">{{ page.title }}</h1>
+                {%- endif -%}
+                {%- if template.suffix contains 'contact' or template.suffix contains 'faq' -%}
+                {{- page.content -}}
+                {%- endif -%}
+            </div>
+        </div>
+        <div class="capsules-wrapper-ct">
+            <div class="capsule-wrapper-menu-ct">
+                {%- if section.settings.menu_links != blank -%}
+                <div class="collection-links-custom-p">
+                    <h2 class="menu-list-title">{{section.settings.menu_links.title}}</h2>
+                    {%- for link in section.settings.menu_links.links-%}
+                    <a href="{{link.url}}">{{link.title}}</a>
+                    {%- endfor -%}
+                    <span class="hr-line-1"></span>
+                </div>
+                {%- endif-%}
+            </div>
+            <div class="capsule-wrapper-content-ct">
+                <h2>{{section.settings.capsule_title}}</h2>
+                <div>
+                    <div>
+                        <div class="capsule-facet-filters-wp">
+                            <div class="capsule-facet-left">
+                            {%- assign capsule_size = section.settings.capsule_size_filter | split: "," -%}
+                            <div class="product-facet__filter-item custom-item-c">
+                                <button type="button" is="toggle-button"
+                                    class="collapsible-toggle text--strong new-cc-spacing"
+                                    aria-controls="facet-filter-filter.v.size"
+                                    aria-expanded="false">Capsule Size<svg focusable="false" width="12" height="8"
+                                        class="icon icon--chevron icon--inline  " viewBox="0 0 12 8">
+                                        <path fill="none" d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="2">
+                                        </path>
+                                    </svg></button>
+
+                                <sort-by-popover capsule-size-filter animate-items="" id="facet-filter-filter.v.size"
+                                    class="collapsible c-custom-abs">
+                                    <div class="collapsible__content">
+                                        {%- for capsule_filter in capsule_size -%}
+                                        <div class="checkbox-container">
+                                            <input input-size-filter class="checkbox" type="checkbox" name="filter.v.size"
+                                                id="{{capsule_filter}}" value="{{capsule_filter}}" kl_vkbd_parsed="true">
+                                            <label for="{{capsule_filter}}">{{capsule_filter}}</label>
+                                        </div>
+                                        {%- endfor -%}
+                                    </div>
+                                </sort-by-popover>
+                            </div>
+                            {%- assign seasons = section.settings.seazon_filter | split: "," -%}
+                            <div class="product-facet__filter-item custom-item-c">
+                                <button type="button" is="toggle-button"
+                                    class="collapsible-toggle text--strong new-cc-spacing"
+                                    aria-controls="facet-filter-filter.v.season"
+                                    aria-expanded="false">Season<svg focusable="false" width="12" height="8"
+                                        class="icon icon--chevron icon--inline  " viewBox="0 0 12 8">
+                                        <path fill="none" d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="2">
+                                        </path>
+                                    </svg></button>
+
+                                <sort-by-popover animate-items="" id="facet-filter-filter.v.season"
+                                    class="collapsible c-custom-abs">
+                                    <div class="collapsible__content">
+                                        {%- for season in seasons -%}
+                                        <div class="checkbox-container">
+                                            <input class="checkbox" type="checkbox" name="filter.v.season"
+                                                id="{{season}}" value="{{season}}" kl_vkbd_parsed="true">
+                                            <label for="{{season}}">{{season}}</label>
+                                        </div>
+                                        {%- endfor -%}
+                                    </div>
+                                </sort-by-popover>
+                            </div>
+                            </div>
+                            <div class="product-facet__filter-item custom-item-c">
+                                <button type="button" is="toggle-button"
+                                    class="collapsible-toggle text--strong new-cc-spacing"
+                                    aria-controls="facet-filter-filter.v.sort_by"
+                                    aria-expanded="false">Sort by<svg focusable="false" width="12" height="8"
+                                        class="icon icon--chevron icon--inline  " viewBox="0 0 12 8">
+                                        <path fill="none" d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="2">
+                                        </path>
+                                    </svg></button>
+                                <sort-by-popover animate-items="" id="facet-filter-filter.v.sort_by"
+                                    class="collapsible c-custom-abs">
+                                    <div class="collapsible__content">
+                                        <div class="checkbox-container">
+                                            <input class="checkbox" type="checkbox" name="filter.v.sort_by"
+                                                id="name" value="name" kl_vkbd_parsed="true">
+                                            <label for="name">Name</label>
+                                        </div>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox" type="checkbox" name="filter.v.sort_by"
+                                                id="price" value="price" kl_vkbd_parsed="true">
+                                            <label for="price">Price</label>
+                                        </div>
+                                    </div>
+                                </sort-by-popover>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Selected filters:</span>
+                            <div id="selected-val-facet"></div>
+                            <a id="clear-all-facet">Clear all</a>
+                        </div>
+                    </div>
+                </div>
+                <capsules-js-events>
+                {%- for block in section.blocks -%}
+                <div collection-capsule-data-inner class="{%-if forloop.index > 5-%} main-capsule-wp-a coll-hide-imp {%- else-%} main-capsule-wp-a {%- endif -%}">
+                    {%- assign collection = block.settings.collection -%}
+                    <div class="action-capsule-wp-ct">
+                        <div class="info-tag-price-wp-ct">
+                            <div class="title-tag-wp-ct"> <span id="coll-title" class="capsule-wpc-title">{{collection.title}}</span>
+                                <div>
+                                    <div style="display:none;" id="coll-tags">{{collection.all_tags | json}}</div>
+                                    {%- for tag in collection.all_tags-%}
+                                    {%- if tag contains "Mini" -%}
+                                    <span class="mini-c-tg">{{tag}}</span>
+                                    {%- elsif tag contains "Midi" -%}
+                                    <span class="midi-c-tg">{{tag}}</span>
+                                    {%- elsif tag contains "Maxi" -%}
+                                    <span class="maxi-c-tg">{{tag}}</span>
+                                    {%- comment -%}
+                                    {%- else -%}
+                                    <span class="all-c-c-tag">{{tag}}</span>
+                                    {%- endcomment -%}
+                                    {%- endif -%}
+                                    {%- endfor -%}
+                                </div>
+                            </div>
+                            <div>
+                                {%- assign total_price = 0.0 -%}
+                                {%- assign discount_price = 0.0 -%}
+                                {% paginate collection.products by 1000 %}
+                                {%- for product in collection.products -%}
+                                {%- assign total_price = total_price | plus: product.price -%}
+                                {%- assign discount_price = discount_price | plus: product.compare_at_price -%}
+                                {%- endfor -%}
+                                {%- endpaginate -%}
+                                {%- assign real_price = total_price -%}
+                                {%- assign total_price = real_price | minus: discount_price -%}
+                                {%- if real_price > total_price -%}
+                                <span id="coll-price" class="tot_prc">{{real_price | money}}</span><span
+                                    class="tot_prc_dsc">{{total_price | money}}</span>
+                                {%- else -%}
+                                <span id="coll-price" class="tot_prc_dsc">{{real_price | money}}</span>
+                                {%- endif -%}
+                            </div>
+                        </div>
+                        <a href="{{collection.url}}" class="button button--primary">See More</a>
+                    </div>
+                    {% if collection.image %}
+                    <img src="{{ collection.image.src | collection_img_url: 'original' }}"
+                        alt="{{ collection.image.alt }}" class="collection-wp-img_t" />
+                    {% endif %}
+                    <p>{{collection.description}}</p>
+                </div>
+                {%- endfor-%}
+                </capsules-js-events>
+                {%- if section.blocks.size > 5 -%}
+                <div class="show-more-bc">
+                    <button id="show-more-ccc" class="button button--primary">Show More</button>
+                </div>
+                {%-endif-%}
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+"name": "Capsules Page",
+"class": "capsules-class",
+"max_blocks": 500,
+"settings": [
+{
+"type": "text",
+"id": "capsule_title",
+"label": "Capsule Title",
+"default": "Capsules",
+"info": "Add title here for capsules"
+},
+{
+"type": "link_list",
+"id": "menu_links",
+"label": "Add your Left Menu Here"
+},
+{
+"type": "textarea",
+"id": "capsule_size_filter",
+"placeholder": "Add filters following by , ex. Midi, Mini, Maxi",
+"default": "Midi, Mini, Maxi",
+"label": "Capsule size filter",
+"info": "Add filters following by , ex. Midi, Mini, Maxi"
+},
+{
+"type": "textarea",
+"id": "seazon_filter",
+"placeholder": "Add filters following by , ex. Winter, Summer",
+"default": "Winter, Summer",
+"label": "Season filter",
+"info": "Add filters following by , ex. Winter, Summer"
+}
+],
+"blocks": [
+{
+"name": "Collections",
+"type": "collection",
+"settings": [
+{
+"type": "collection",
+"id": "collection",
+"label": "Collection"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Capsules Page",
+"blocks": [
+{
+"type": "collection"
+}
+]
+}
+]
+}
+{% endschema %}

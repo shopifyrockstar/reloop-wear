@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": true,
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "featured_links": "",
+        "category_links": "",
+        "other_links": "",
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "16392256592a9d2d80": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "BROWSE THROUGH OUR",
+        "title": "SUSTAINABLE TRAVEL CAPSULE WARDROBES",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225581b4e003e2": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Say goodbye to your packing nightmares 👋🏻🧳<\/p><p>If you’ve ever spent hours in front of your wardrobe trying to figure out what to take on your next adventure, you’re not alone. We’ve been there, and now we’re taking care of that for you. We’ve been working hard making tons of choices so you don’t have to. 💚<\/p><p>Skip the packing headache and take full advantage of this pre-made travel capsule wardrobe created for conscious travellers, just like you. All elements are carefully selected per specific destination, not transient fashion trends. They are styled in such a way, that no matter how you combine them, they will always look good together. <\/p><p>Focus on experiences, skip the packing headache. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225404c1af301f": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1639225404538dc278-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_A.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1639225404538dc278-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1639225404538dc278-0",
+        "1639225404538dc278-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225664fd07fc91": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "163922566435b396ea-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "163922566435b396ea-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "163922566435b396ea-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "163922566435b396ea-0",
+        "163922566435b396ea-1",
+        "163922566435b396ea-2"
+      ],
+      "settings": {
+        "product": "buttoned-up-lycoell-midi-skirt-to-do",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640894378726caf3c": {
+      "type": "slideshow",
+      "blocks": {
+        "1640894378172740ae-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_B_2.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1640894378172740ae-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16408945346c081bad": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Europe summer travel capsule wardrobe - midi",
+        "content": "<p>8 pieces to make it all to spend 3 weeks carelessfly at your holidays in Europe, regalrdless if you're heading to a fancy restaurant or to the beach. <br\/>Classic black colour at its core, broke with joyfull yellow accents and teal dress. Mix and max freely, revert or unzip to make your outfits different every day. <br\/>All fabrics are airy, breathable and natural to give you utmost comfort while travelling. <\/p>",
+        "button_text": "See more",
+        "button_link": "shopify:\/\/collections\/europe",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1640894457dcc78ed4": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "164089445733940738-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "164089445733940738-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1640894564d35a915b": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Madrid Capsule Midi",
+        "content": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum<\/p>",
+        "button_text": "See more",
+        "button_link": "shopify:\/\/products\/madrid-summer-capsule",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164089449656afceda": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "164089449609542e87-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "164089449609542e87-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "164089458067d777f1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "STAY TUNED FOR MORE, AS WE ARE WORKING ON CREATING MORE CAPSULES FOR YOU!",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/products\/madrid-summer-capsule10",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "16392256592a9d2d80",
+    "1639225581b4e003e2",
+    "1639225404c1af301f",
+    "1639225664fd07fc91",
+    "1640894378726caf3c",
+    "16408945346c081bad",
+    "1640894457dcc78ed4",
+    "1640894564d35a915b",
+    "164089449656afceda",
+    "164089458067d777f1"
+  ]
+}

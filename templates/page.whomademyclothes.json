@@ -1,0 +1,322 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647594312176cb303": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/27.png",
+        "subheading": "",
+        "title": "You Should Know # Who Made Your Clothes",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16408977646747edd2": {
+      "type": "slideshow",
+      "blocks": {
+        "16408977644f82a509-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Reloop_Martyna_Wydmanska_1.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "You should know #Who Made Your Clothes",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "16408977644f82a509-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16475943959cfbe8fd": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "164759439525fbe161-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Transparent_with_green_brid_small_6215b86b-9426-4673-b1ef-1b5a859eb600.png",
+            "title": "WE STAND WITH PEOPLE WHO MAKE OUR CLOTHES",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "164759439525fbe161-0"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409466055f2da5d4": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Yes, fashion has a terrible impact on the environment, and today that’s more than clear. We all want to make better, more sustainable choices, but how can we do so when we don’t have clear information? <\/p><p>That’s where transparency comes in.<\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647448335fe2b8659": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Transparency: A Stepping Stone Into a Better Future",
+        "title": "",
+        "content": "<p>'Radical Transparency’ has become quite the buzzword in the fashion industry lately. By definition, transparency implies being as honest and open as possible, in this case, regarding how clothes are made. If consumers want to make responsible choices, they need to know what’s going on behind the scenes, what a brand stands for, and how they address important issues. <\/p><p>On April 2013, an eight-story commercial building in Bangladesh collapsed to the ground, killing 1,134 garment workers and injuring an additional 2,500. The tragedy -referred to as the Rana Plaza disaster- motivated the founders of Fashion Revolution to create a movement that would go behind-the-scenes of the fashion industry, shedding light on the manufacturing processes and holding companies accountable for their actions. <\/p><p>In 2014, the #WhoMadeMyClothes hashtag was born, instantly becoming a global trend that is still running strong today. This, however, is just the beginning. Transparency serves as a stepping stone into a better future for all of us.<\/p><p>With <span style=\"text-decoration:underline\">greenwashing <\/span>rearing its ugly head, transparency is more important than ever, backing claims with evidence and certification. At the same time, big, pompous claims of ‘radical transparency’ may also smell a bit like greenwashing, right? Let’s make this point really clear: at Reloop Wear, we believe in transparency and we’re fully committed to it. Yet, we believe “radical” postures never brought anything good in the past. Our transparency isn’t radical, it’s just TRUE. <\/p><p>We know we’re not perfect -and we’re not trying to be- but our promise is to be honest. This means publishing all the details and information about our manufacturing processes. We want you to be confident in your purchases and to know all the details behind our products. No secrets, no small print. <\/p><p>Are you wondering who made your clothes? <br\/>Read on.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165822515863053631": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "So, Who Made Your Clothes?",
+        "title": "",
+        "content": "<p>Currently, our clothes come from two main manufacturers: M-Corp and Stanley\/Stella. <\/p><p>We carefully weigh our options when deciding who to work with, so as to make sure we’re always offering you the best we can. Because circularity is not just doing right by the environment; it also means making sure people are treated fairly.  <\/p><p>Let us tell you all about our providers and why they meet our criteria.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165822563984b3d173": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658225638b65f5de2-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mcorp.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "M-CORP",
+            "content": "<p>Originally a brand of children’s clothing, <a href=\"http:\/\/m-corp.pl\"><span style=\"text-decoration:underline\">M-Corp<\/span><\/a> now provides sewing manufacture for start ups and established businesses. <br\/>And there’s one thing that’s certain about them: they really love what they do, just like us! <\/p><p>Made in the EU with passion and care, M-corp is a small, family-run business. We are well aware that the fact that something is made in the EU doesn’t immediately make it ‘fair’. However, after our research and our time working with M-corp, they have proven to be an honest, transparent and hard working company, always putting people first. <\/p><p>We believe in the power of collaboration to build a better world, and supporting small, local businesses is one of our ways of contributing to positive change.  <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658225638b65f5de2-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16582256530a27f963": {
+      "type": "image-with-text",
+      "blocks": {
+        "16582256531b4bed5a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stanleystella.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Stanley\/Stella",
+            "content": "<p>Launched in 2012, <a href=\"http:\/\/www.stanleystella.com\"><span style=\"text-decoration:underline\">Stanley\/Stella <\/span><\/a>is one of the pioneers in the production of sustainable clothing designed for direct printing and embroidery. Their mission is to offer products that respect both people and the environment, creating high quality garments in the most responsible and ethical way.<\/p><p>Stanley\/Stella has been exposed to criticism, raising questions about its ethics due to having its factories in Bangladesh. However, they have taken accountability by publishing and constantly updating their <a href=\"https:\/\/online.flippingbook.com\/view\/966881946\/\"><span style=\"text-decoration:underline\">sustainability reports<\/span><\/a>, along with their <a href=\"https:\/\/www.stanleystella.com\/en-gb\/we-are-certified\"><span style=\"text-decoration:underline\">reputable fashion certifications<\/span><\/a>. Based on the reports, they work with 100% organic cotton sourced from India, recycled polyester from China and other sustainable materials such as Modal from Austria, while ensuring the safety of their workers by collaborating closely with the Fair Wear Foundation (FWF). Apart from this, their team in Dhaka visits every factory to check that workers receive a decent salary and that their rights are fully respected. <\/p><p>After much investigation, we have decided to trust and work with Stanley\/Stella in these first steps of our journey. As we continue on the road towards 100% circularity, we will shift exclusively to our own production. If you’re curious about our future plans, be sure to check out our <a href=\"\/pages\/our-circular-roadmap\" title=\"Our Circular Roadmap\"><span style=\"text-decoration:underline\">circular roadmap<\/span><\/a>. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16582256531b4bed5a-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165822821412ba5f8e": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "At this moment, these are the manufacturers we collaborate with and trust.",
+        "title": "",
+        "content": "<p>As we continue to grow as a brand, we keep evolving. However, there’s one thing we’re sure of: manufacturers may come and go, but <span style=\"text-decoration:underline\">our values<\/span> will stay the same. <\/p><p>We’re on a journey towards circularity! Care to join us?<\/p><p>#LetsReloop<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654702579fd391f1a": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "1654702579e6371b88-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-clothes-hangers-cling-emptily-to-the-shiny-shop-rack.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "READ ON",
+            "button_1_text": "CIRCULAR ROADMAP",
+            "button_1_link": "shopify:\/\/pages\/our-circular-roadmap",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1654702579e6371b88-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/capsule_wardrobe.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "SHOP",
+            "button_1_text": "SHOP ALL",
+            "button_1_link": "shopify:\/\/collections\/by-category",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1654702579e6371b88-0",
+        "1654702579e6371b88-1"
+      ],
+      "settings": {
+        "desktop_main_image": "shopify:\/\/shop_images\/31.png",
+        "banner_title": "WHAT DO YOU WANT TO DO NEXT?",
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1654704895d8c365df": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "or... never miss a good read and",
+        "title": "Subscribe to our newsletter",
+        "content": "<p>Customize and have a full control over what you want to receive in your inbox:<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16474453478ad0affc": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more.  #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "Subscribe to our newsletter",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647594312176cb303",
+    "16408977646747edd2",
+    "16475943959cfbe8fd",
+    "16409466055f2da5d4",
+    "1647448335fe2b8659",
+    "165822515863053631",
+    "165822563984b3d173",
+    "16582256530a27f963",
+    "165822821412ba5f8e",
+    "1654702579fd391f1a",
+    "1654704895d8c365df",
+    "16474453478ad0affc"
+  ]
+}

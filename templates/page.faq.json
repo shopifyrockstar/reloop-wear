@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1647518551ecc37fcf": {
+      "type": "slideshow",
+      "blocks": {
+        "1647518550e5a87604-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Africa_8e47817c-1735-45ab-b9ab-4c09181fd639.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "FREQUENTLY ASKED QUESTIONS",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1647518550e5a87604-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16475176873cc42f9e": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "and (hopefully) all answers to them",
+        "title": "",
+        "content": "<p>It's good to be curious! So if you're curious to know what other people wanted to know before you ask the question, go ahead and read through. <\/p><p>Pssst. If you haven't found the topic that interests you, submit your own question at the bottom of the page. This page is continuously evolvinig and you can help as well.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "1ece828a-6940-4265-a3a4-4286c72ce95f": {
+          "type": "category",
+          "settings": {
+            "title": "ABOUT RELOOP WEAR"
+          }
+        },
+        "2f7eec9c-98c8-46b3-bcba-4f3cc567f7ca": {
+          "type": "question",
+          "settings": {
+            "title": "What does your name mean?",
+            "answer": "<p>That's a real word games! RELOOP corresponds freely to all sort of \"RE\" words: <strong>re<\/strong>cycling, <strong>re<\/strong>sponsible, <strong>re<\/strong>used, <strong>re<\/strong>turned, etc. All of these g<strong>RE<\/strong>en words are close to our hearts and to our brand's mission. Aiming in achieving a circular production, there's no better word than a combination of a loop and a symbolic \"RE\" prefix. <\/p><p>And besides... it's also a fun word to pronounce! Can't help it: that's our playful nature to reloop ;)<\/p>"
+          }
+        },
+        "8b6d92bc-6dae-425d-92af-d5b62248bbca": {
+          "type": "question",
+          "settings": {
+            "title": "What does your logo represent? <p> <\/p>",
+            "answer": "<p>It's simple!  We love birds. Birds make loops in the air when they fly. And if you haven't seen them making loops yet, well... get out of the house and start exploring ;) <\/p><p>On top of that birds symbolize freedom, which is close to our hearts. They are free to roam to earth and the sky. Many cultures believe, that birds represent the eternal life. It's just like our vision to close the loop for the clothes we produce and allow them a second life. <br\/><\/p>"
+          }
+        },
+        "fd944ca1-dd8d-426d-91d7-124694ddfa15": {
+          "type": "question",
+          "settings": {
+            "title": "Where are you based?",
+            "answer": "<p>Our Main (Moss) Hub is in picturesque Füssen, Germany, but in fact our team is scattered across Europe: Poland, Romania, the United Kingdom, Spain (and perhaps some more countries in the future as we grow). <\/p><p>We do not have our physical store YET, but you're welcome to send us a postcard from your trips at our Moss Hub address. <\/p><p>You will find the addresses of our the showrooms we partnered up with under the Contact section (bear in mind we are working on it). <\/p>"
+          }
+        },
+        "13a6ba2d-3605-4288-8fd4-17ecb516f6a2": {
+          "type": "category",
+          "settings": {
+            "title": "CIRCULARITY & SUSTAINABILITY"
+          }
+        },
+        "ca2cb182-a822-4dd6-85c4-d84763dc74af": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between circularity and sustainability?",
+            "answer": "<p>Terms like sustainability and circularity are often used interchangeably, whereas they are two different things. <\/p><p>Sustainability was defined by the Brundtland Report as \"development that meets the needs of the present without compromising the ability of the future generations to meet their own needs\". <\/p><p>While sustainability is more broadly related to people, the planet and the economy, circularity is focused on resource cycles. It implies closing the loop and cycling raw materials back into the manufacturing process to minimise waste along the supply chain. <\/p><p><strong>How it relates to fashion?<\/strong><\/p><p>In 2017 Anna Brismar developed the idea of circular fashion. She defined it as clothes, shoes or accessories that are designed, sources, produced and provided with the intention to be used, to circulate responsibly and effectively in society, and then returned safely to the biosphere when no longer of use. <\/p><p>In summary, circular fashion implies reusing resources, starting from the initial design stage to the end of the product's lifecycle, and looping materials back to the system over and over again. <\/p><p>Sustainable fashion uses materials produced from natural resources, with minimum environmental impact and carbon footprint. <\/p><p>By being aware of sustainability and circularity and making the right decisions, we can minimize waste along the supply chain and reduce teh environmental impact that comes with fashion production. By being more responsible manufacturers and consumers, we can save teh planet from unnecessary waste and pollution.<\/p>"
+          }
+        },
+        "0dc78e36-2074-4598-9f4a-27b58dbf0ad2": {
+          "type": "question",
+          "settings": {
+            "title": "How are your product circular?",
+            "answer": "<p>We aim at 100% circularity, but we are certainly NOT there YET! You can read our <a href=\"\/pages\/transparency-report\" title=\"Our Transparency Report - TO DO\">Transparency Report <\/a>and our <a href=\"\/pages\/our-circular-roadmap\" title=\"Our Circular Roadmap\">Circular Roadmap <\/a>to learn more about everything we do to get there. <\/p>"
+          }
+        },
+        "188e3b99-25e4-4a8d-88e1-b951264de7b8": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCTS"
+          }
+        },
+        "6bcfa7a9-4af7-47d7-a7d5-28002ebc0c0f": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you source your materials from?",
+            "answer": "<p>We're seeking for the best in the world suppliers and we're limiting ourselves to the possibly closest countries. We want to source locally and impact globally. We're having our sight at Tencel from Austria and organic cotton from Turkey. We're planning to supply our wool from sustainable and traceable Patagonian steps. Some of the gems will be brought by ourselves from our trips, to bring closer to you some distant parts of this world. If you have got any ideas on who to source from, go ahead and share! ;)<\/p>"
+          }
+        },
+        "0f9a7199-066b-4335-ba2b-44a23fff2ef2": {
+          "type": "question",
+          "settings": {
+            "title": "Who made my clothes?",
+            "answer": "<p>That's the very right question to ask! Just like the materials are sourced locally, we create the products with love in the places we live in. Our signature collection is produced in Central Poland, in a small family-ran company. The temporary collection we are offering, is produced by our Fair Wear certified supplier, Stanley and Stella. In both cases, we assured, that people making our clothes are paid fair wages and have very good working conditions. <\/p>"
+          }
+        },
+        "81db2364-1ff1-4fa1-8510-20495dda8475": {
+          "type": "question",
+          "settings": {
+            "title": "Where are your clothes produced?",
+            "answer": "<p>We produce our clothes in Central Poland in a small, family-owned manufacturing site. Part of our temporary collection is supplied from a Belgian Fair Wear certified supplied Stanley\/Stella, who produce their clothes in Bangladesh, where all their sites are regularly monitored and supervised. We encourage you to read <a href=\"https:\/\/online.flippingbook.com\/view\/966881946\/\" target=\"_blank\" title=\"https:\/\/online.flippingbook.com\/view\/966881946\/\">Stanley\/Stella Sustainability report<\/a>.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1ece828a-6940-4265-a3a4-4286c72ce95f",
+        "2f7eec9c-98c8-46b3-bcba-4f3cc567f7ca",
+        "8b6d92bc-6dae-425d-92af-d5b62248bbca",
+        "fd944ca1-dd8d-426d-91d7-124694ddfa15",
+        "13a6ba2d-3605-4288-8fd4-17ecb516f6a2",
+        "ca2cb182-a822-4dd6-85c4-d84763dc74af",
+        "0dc78e36-2074-4598-9f4a-27b58dbf0ad2",
+        "188e3b99-25e4-4a8d-88e1-b951264de7b8",
+        "6bcfa7a9-4af7-47d7-a7d5-28002ebc0c0f",
+        "0f9a7199-066b-4335-ba2b-44a23fff2ef2",
+        "81db2364-1ff1-4fa1-8510-20495dda8475"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "ABOUT US AND OUR PRODUCTS",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164753960546fa14a9": {
+      "type": "faq",
+      "blocks": {
+        "16475396052f8f23f2-0": {
+          "type": "category",
+          "settings": {
+            "title": "YOUR PRIVACY & EMAIL PREFERENCES"
+          }
+        },
+        "16475396052f8f23f2-1": {
+          "type": "question",
+          "settings": {
+            "title": "What happens to my email address if I decide to share it with you?",
+            "answer": "<p>We respect and are committed to protecting your personal information. Our privacy statements reflect current global principles and standards on handling personal information: notice and choice of data use, data access and integrity, security, onward transfer and enforcement\/oversight. This is why, when you decide to share you email address with us, we will use your personal information for the purpose it was collected and will not use it for a different purpose without first asking for your permission. Read more details around our <a href=\"\/pages\/reloop-wear-privacy-statement\" title=\"Reloop Wear Privacy Statement\">privacy policy<\/a>.<\/p>"
+          }
+        },
+        "16475396052f8f23f2-2": {
+          "type": "question",
+          "settings": {
+            "title": "How do I manage my email preferences?",
+            "answer": "<p>We value your time and privacy and we also hate when we get unwanted spam in our inboxes. This is why we did our best to allow you to set up your email preferences straight through our Website. To manage your email preferences, go to Your Account and select the areas you'd like to receive emails about. In each email, you will find the \"Unsubscribe\" option at the bottom of it, unless it's a transactional email purely related to your purchase. <\/p>"
+          }
+        },
+        "16475396052f8f23f2-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "16475396052f8f23f2-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>No problem! You can contact us through our contact page. We will be happy to assist you.<\/p>"
+          }
+        },
+        "643d28c1-49ee-4fff-9cca-3682efaf8958": {
+          "type": "category",
+          "settings": {
+            "title": "Capsule wardrobe experience"
+          }
+        },
+        "a7d05d91-1f10-4f1d-9df7-bea0550a552b": {
+          "type": "question",
+          "settings": {
+            "title": "?",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "16475396052f8f23f2-0",
+        "16475396052f8f23f2-1",
+        "16475396052f8f23f2-2",
+        "16475396052f8f23f2-3",
+        "16475396052f8f23f2-4",
+        "643d28c1-49ee-4fff-9cca-3682efaf8958",
+        "a7d05d91-1f10-4f1d-9df7-bea0550a552b"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "YOUR EXPERIENCE",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164751813452dc1470": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Didn't find the answer to your question?",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647517690e0d269ee": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact Us",
+        "content": "<p>By submitting your question, you agree to our Privacy Policy available <a href=\"\/pages\/reloop-wear-privacy-statement\" title=\"Reloop Wear Privacy Statement\">right here<\/a>. <\/p>",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647518551ecc37fcf",
+    "16475176873cc42f9e",
+    "faq",
+    "164753960546fa14a9",
+    "164751813452dc1470",
+    "1647517690e0d269ee"
+  ]
+}

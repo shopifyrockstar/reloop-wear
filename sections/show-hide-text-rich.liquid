@@ -1,0 +1,50 @@
+<section>
+    <div class="container show-hide-j-t">
+        <div class="content-box content-box--large content-box--text-center content-box--center text-container for-blog rte">
+            <div class="features-wrapper-custom">
+                <div class="show-hide-wrapper no-brd" show="false">
+                    <div class="title-icon-wrapper-show-hide">
+                        <span>{{section.settings.title}}</span>
+                        <span class="custom-rotate-icon-c"></span>
+                    </div>
+                    <div class="show-hide-inner">
+                        <div class="product-form__description" {{ block.shopify_attributes }}>
+                            <p>{{section.settings.paragraph}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+  .for-blog{
+    width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9);
+  }
+</style>
+{% schema %}
+{
+"name": "Show Hide Rich Text",
+"class": "capsules-class",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Title",
+"default": "Title",
+"info": "Add title here"
+},
+{
+"type": "richtext",
+"id": "paragraph",
+"label": "Content",
+"info": "Content"
+}
+],
+"presets": [
+{
+"name": "Show Hide Rich Text"
+}
+]
+}
+{% endschema %}

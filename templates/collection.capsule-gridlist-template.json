@@ -1,0 +1,475 @@
+{
+  "wrapper": "section#grid-collection-demo",
+  "sections": {
+    "16392256592a9d2d80": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "4 PIECES = 12 OUTFITS",
+        "title": "TRAVEL CAPSULE WARDROBE 1",
+        "content": "<p>XXX € <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409438463b1b21e3": {
+      "type": "slideshow",
+      "blocks": {
+        "1640943846c311ac34-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capsule_wardrobe_collection_version_2_B.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1640943846c311ac34-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1639225581b4e003e2": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Say goodbye to your packing nightmares 👋🏻🧳<\/p><p>If you’ve ever spent hours in front of your wardrobe trying to figure out what to take on your next adventure, you’re not alone. We’ve been there, and now we’re taking care of that for you. We’ve been working hard making tons of choices so you don’t have to. 💚<\/p><p>Skip the packing headache and take full advantage of this pre-made travel capsule wardrobe created for conscious travellers, just like you. All elements are carefully selected per specific destination, not fleeting fashion trends. They are styled in such a way, that no matter how you combine them, they will always look good together. <\/p><p>Experience your journey, skip the packing headache. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164121148145fde40c": {
+      "type": "grid-list-detail-wrapper",
+      "settings": {
+        "subheading": "TEST",
+        "title": "product 1",
+        "html": "<p style=\"text-align: center\">https:\/\/www.reloopwear.com\/collections\/europe<\/p>",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": true,
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "featured_links": "by-destination",
+        "category_links": "",
+        "other_links": "",
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "1640949982550b2e15": {
+      "type": "grid-collection-demo",
+      "blocks": {
+        "1640949982be14f1d0-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640949982be14f1d0-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640949982be14f1d0-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false
+          }
+        },
+        "8ea08044-97df-4156-a9b2-4e5c8a80aacb": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "87da088c-f584-4d83-8034-dba99b732551": {
+          "type": "text",
+          "settings": {
+            "text": "See the full product details"
+          }
+        }
+      },
+      "block_order": [
+        "1640949982be14f1d0-0",
+        "1640949982be14f1d0-1",
+        "1640949982be14f1d0-2",
+        "8ea08044-97df-4156-a9b2-4e5c8a80aacb",
+        "87da088c-f584-4d83-8034-dba99b732551"
+      ],
+      "settings": {
+        "product": "copy-of-madrid-summer-capsule4",
+        "subheading": "test",
+        "title": "test",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_share_buttons": true,
+        "help_page": "need-help",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409500192b8b2b50": {
+      "type": "grid-collection-demo",
+      "disabled": true,
+      "blocks": {
+        "1640950019e7d905c5-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640950019e7d905c5-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640950019e7d905c5-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1640950019e7d905c5-0",
+        "1640950019e7d905c5-1",
+        "1640950019e7d905c5-2"
+      ],
+      "settings": {
+        "product": "copy-of-madrid-summer-capsule4",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409500395b543aaf": {
+      "type": "grid-collection-demo",
+      "disabled": true,
+      "blocks": {
+        "1640950039bb16faae-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1640950039bb16faae-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1640950039bb16faae-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false
+          }
+        },
+        "2fb55e64-34ce-4d8e-b026-6bc647cc3bac": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "bf408f5d-5499-4ba8-82d4-b4e6cb888f15": {
+          "type": "text",
+          "settings": {
+            "text": "See the full product details"
+          }
+        }
+      },
+      "block_order": [
+        "1640950039bb16faae-0",
+        "1640950039bb16faae-1",
+        "1640950039bb16faae-2",
+        "2fb55e64-34ce-4d8e-b026-6bc647cc3bac",
+        "bf408f5d-5499-4ba8-82d4-b4e6cb888f15"
+      ],
+      "settings": {
+        "product": "copy-of-madrid-summer-capsule4",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164181525069eacb70": {
+      "type": "grid-collection-demo",
+      "disabled": true,
+      "blocks": {
+        "1641815249391d7491-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1641815249391d7491-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1641815249391d7491-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false
+          }
+        },
+        "df51bebf-95d8-466f-9e97-f9db4926df90": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "dcbda9b9-41ac-48df-b1c4-b4d60791ec27": {
+          "type": "text",
+          "settings": {
+            "text": "See the full product details"
+          }
+        }
+      },
+      "block_order": [
+        "1641815249391d7491-0",
+        "1641815249391d7491-1",
+        "1641815249391d7491-2",
+        "df51bebf-95d8-466f-9e97-f9db4926df90",
+        "dcbda9b9-41ac-48df-b1c4-b4d60791ec27"
+      ],
+      "settings": {
+        "product": "copy-of-madrid-summer-capsule4",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "primary_button_background": "rgba(0,0,0,0)",
+        "primary_button_text_color": "rgba(0,0,0,0)",
+        "secondary_button_background": "rgba(0,0,0,0)",
+        "secondary_button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16409442051e47835d": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Can't decide now? Add all products to<strong> My Capsule<\/strong> and customise it later.<\/p>",
+        "button_text": "Add all products to My Capsule",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412172919bb8e701": {
+      "type": "featured-collection-custom",
+      "blocks": {
+        "16412172905e1dccc4-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "asia",
+            "label": "SUNFLOWER CAPSULE",
+            "price_one": "XXX",
+            "price_two": "XXX",
+            "collection_link": "shopify:\/\/collections\/asia",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b69426c2-8ccd-4cd8-b7f7-f876f26e8fe3": {
+          "type": "collection",
+          "settings": {
+            "collection": "africa",
+            "label": "AFRICA CAPSULE",
+            "price_one": "XXX",
+            "price_two": "XXX",
+            "collection_link": "shopify:\/\/collections\/africa",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "46238d9e-50e5-47c8-8a00-5afe08837265": {
+          "type": "collection",
+          "settings": {
+            "collection": "europe",
+            "label": "EUROPE CAPSULE",
+            "price_one": "XXX",
+            "price_two": "XXX",
+            "collection_link": "shopify:\/\/collections\/europe",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16412172905e1dccc4-0",
+        "b69426c2-8ccd-4cd8-b7f7-f876f26e8fe3",
+        "46238d9e-50e5-47c8-8a00-5afe08837265"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Others also viewed",
+        "content": "<p>Get inspired! Browse through our sustainable travel capsule wardrobes.<\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f8f5f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16412177425daabe4f": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Caring for the Planet, by creating travel capsule wardrobe for conscious travellers, designed with circularity at every step of the journey. Less is more. #LetsReloop",
+        "button_title": "Our story",
+        "button_url": "",
+        "subheading": "NEWSLETTER",
+        "content": "You choose what you get in your inbox. We make sure it is providing value and inspiration to your travel capsule wardrobe.",
+        "subheading_2": "What are you interested in?"
+      }
+    }
+  },
+  "order": [
+    "16392256592a9d2d80",
+    "16409438463b1b21e3",
+    "1639225581b4e003e2",
+    "164121148145fde40c",
+    "collection-banner",
+    "main",
+    "1640949982550b2e15",
+    "16409500192b8b2b50",
+    "16409500395b543aaf",
+    "164181525069eacb70",
+    "16409442051e47835d",
+    "16412172919bb8e701",
+    "16412177425daabe4f"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+          }
+        },
+        "order_note": {
+          "type": "order_note",
+          "settings": {
+            "open_by_default": true
+          }
+        },
+        "3c3008ee-8f36-4c82-b68c-6bd4c889375f": {
+          "type": "express_checkout_buttons",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "order_note",
+        "3c3008ee-8f36-4c82-b68c-6bd4c889375f"
+      ],
+      "settings": {
+        "show_payment_methods": true,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "Germany",
+        "empty_button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "cart-recommendations": {
+      "type": "cart-recommendations",
+      "settings": {
+        "title": "Before you go"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cart-recommendations"
+  ]
+}

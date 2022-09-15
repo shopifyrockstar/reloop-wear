@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_blog_title": true,
+        "show_tags": true,
+        "show_category": true,
+        "show_excerpt": true,
+        "articles_per_page": 6
+      }
+    },
+    "163922777317052f19": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "relooped-series",
+        "subheading": "",
+        "title": "Featured",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": false,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1639227824689ac279": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "relooped-news",
+        "subheading": "",
+        "title": "CHECK ALSO OUR RELOOPED NEWS:",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16392281056b7be987": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "163922810543acde78-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "RELOOP NEWS",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "163922810543acde78-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "163922810543acde78-0",
+        "163922810543acde78-1"
+      ],
+      "settings": {
+        "section_height": "fit",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163922777317052f19",
+    "1639227824689ac279",
+    "16392281056b7be987"
+  ]
+}
