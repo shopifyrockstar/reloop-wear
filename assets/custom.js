@@ -323,22 +323,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //show hide events
-  let showHideButtons = document.querySelectorAll(".show-hide-wrapper");
-  showHideButtons.forEach((showHideButton) => {
-    console.log("btb", showHideButton);
-    let inner = showHideButton.querySelector(".show-hide-inner");
-    let icon = showHideButton.querySelector(".custom-rotate-icon-c");
-    var isActive = false;
-    console.log("btb", showHideButton, inner);
-    showHideButton.addEventListener("click", (e) => {
-      console.log("clicked show hide");
-      isActive = !isActive;
-      icon.style.transform = isActive ? "rotate(0deg)" : "rotate(180deg)";
-      inner.style.animation = isActive
-        ? "0.3s show-content-c forwards"
-        : "0.3s hide-content-c forwards";
-    });
-  });
+  // let showHideButtons = document.querySelectorAll(".show-hide-wrapper");
+  // showHideButtons.forEach((showHideButton) => {
+  //   console.log("btb", showHideButton);
+  //   let inner = showHideButton.querySelector(".show-hide-inner");
+  //   let icon = showHideButton.querySelector(".custom-rotate-icon-c");
+  //   var isActive = false;
+  //   console.log("btb", showHideButton, inner);
+  //   showHideButton.addEventListener("click", (e) => {
+  //     console.log("clicked show hide");
+  //     isActive = !isActive;
+  //     icon.style.transform = isActive ? "rotate(0deg)" : "rotate(180deg)";
+  //     inner.style.animation = isActive
+  //       ? "0.3s show-content-c forwards"
+  //       : "0.3s hide-content-c forwards";
+  //   });
+  // });
+
   try {
     // banner icons oneMouseEnterEvent
     let mouseEventsBanner = document.querySelectorAll(
@@ -766,3 +767,52 @@ function setNewsletterValue() {
   }
   newsletterMain.value = values;
 }
+
+
+var ellipsestext = "...";
+var moretext = "Show more >";
+var lesstext = "Show less";
+
+function ShowMore(showChar, element){
+  var content = element.html();
+
+  if(content.length > showChar) {
+      var c = content.substr(0, showChar);
+      var h = content.substr(showChar, content.length - showChar);
+      var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+      element.html(html);
+  }
+}
+
+$('.has-show-more').each(function() {
+  var showChar = 350;  // How many characters are shown by default
+  var element = $(this);
+  ShowMore(showChar, element);
+});
+$('.size-chart-content').each(function() {
+  var showChar = 80;  // How many characters are shown by default
+  var element = $(this);
+  ShowMore(showChar, element);
+});
+
+$(".morelink").click(function(){
+    if($(this).hasClass("less")) {
+        $(this).removeClass("less");
+        $(this).html(moretext);
+    } else {
+        $(this).addClass("less");
+        $(this).html(lesstext);
+    }
+    $(this).parent().prev().toggle();
+    $(this).prev().toggle();
+    return false;
+});
+
+
+$('.tab-title-wrapper').click(function(){
+  $(this).closest(".product-form__tab").toggleClass('active');
+  // $(this).closest(".product-form__tab").siblings().removeClass('active'); 
+  $(this).closest(".product-form__tab").find('.tab-content-wrapper').stop().slideUp();
+  $(this).closest(".product-form__tab.active").find('.tab-content-wrapper').stop().slideDown();
+  return false;
+});

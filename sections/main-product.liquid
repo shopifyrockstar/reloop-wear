@@ -48,7 +48,7 @@
       <div class="quick-buy-product__info {% if template.suffix == 'quick-buy-popover' %}text--small{% endif %}">
         <product-meta form-id="product-form-{{ section.id }}-{{ product.id }}" unit-price-class="text--xsmall" class="product-item-meta">
     
-<!--           {%- if section.settings.show_vendor -%}
+          {%- if section.settings.show_vendor -%}
             {%- assign vendor_handle = product.vendor | handle -%}
             {%- assign collection_for_vendor = collections[vendor_handle] -%}
 
@@ -57,7 +57,7 @@
             {%- else -%}
               <a href="{{ product.vendor | url_for_vendor }}" class="product-item-meta__vendor heading {% if template.suffix == 'quick-buy-drawer' %}heading--small{% else %}heading--xsmall{% endif %}">{{ product.vendor }}</a>
             {%- endunless -%}
-          {%- endif -%} -->
+          {%- endif -%}
 
           <a href="{{ product.url }}" class="product-item-meta__title">{{ product.title }}</a>
 
@@ -264,63 +264,6 @@
       "name": "Description",
       "limit": 1
     },
-     {
-      "type": "materials_manufacturer",
-      "name": "Materials & Manufacturer",
-      "settings":[
-          {
-          "type": "richtext",
-          "id": "mat_text",
-          "label": "Body Fit Left Text",
-          "default": "<p>Tight Fit</p>"
-        }
-      ]
-    },
-      {
-      "type": "shipping_returns",
-      "name": "Shipping & Returns",
-      "limit": 8,
-      "settings":[
-        {
-          "type": "richtext",
-          "id": "shipping_returns_value",
-          "label": "Shipping and Returns Text",
-          "default": "<p>Lorem ipsum dotor amet</p>"
-        }
-      ]
-    },
-       {
-      "type": "product_care",
-      "name": "Product Care",
-      "limit": 8,
-      "settings":[  
-        {
-        "type": "liquid",
-        "id": "product_care_value",
-        "label": "Product Care Text",
-        "default": "<p>Lorem ipsum dotor amet</p>"
-      }
-    ]
-    },
-      {
-      "type": "product_sustainability",
-      "name": "Sustainability",
-      "limit": 8,
-      "settings":[
-        {
-          "type": "liquid",
-          "id": "product_sustainability_value",
-          "label": "Product Sustainability Text",
-          "default": "<p>Lorem ipsum dotor amet<p>"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "name": "Features",
-      "limit": 8,
-      "settings":[]
-    },
     {
       "type": "inventory",
       "name": "Inventory",
@@ -343,9 +286,25 @@
       "name": "Text",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
           "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "tab_content",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Tab content"
         }
       ]
     },
