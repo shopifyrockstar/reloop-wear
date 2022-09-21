@@ -190,19 +190,7 @@
               </div>
           {%- endcase -%}
         {%- endif -%}
-
-      {%- comment -%}
-      ----------------------------------------------------------------------------------------------------------------
-      TEXT
-      ----------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
-      {%- when 'text' -%}
-        {% if block.settings.text != blank %}
-          <div class="product-form__text" {{ block.shopify_attributes }}>
-            {{- block.settings.text -}}
-          </div>
-        {%- endif -%}
-
+      
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       IMAGE
@@ -287,89 +275,47 @@
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
       {%- when 'description' -%}
-        <div class="product-form__description rte" {{ block.shopify_attributes }}>
         {%- if product.description != blank -%}
-           <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-            <span>DESCRIPTION</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-            {{- product.description -}}
-          </div>
-          </div>
-          </div>
+          <div class="product-form__tab product-form__description rte" {{ block.shopify_attributes }}>
+            <div class="tab-title-wrapper">
+              <p class="tab-title">description</p>
+              <span class="custom-rotate-icon-c"></span>
+            </div>
+            <div class="tab-content-wrapper">
+              {{- product.description -}}
+            </div>
           </div>
         {%- endif -%}
 
-        {%- when 'materials_manufacturer' -%}
-        {%- if block.settings.mat_text != blank -%}
-           <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-          <span>MATERIALS & MANUFACTURER</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-          <div class="product-form__description rte" {{ block.shopify_attributes }}>
-            {{- block.settings.mat_text -}}
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      Tab content
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'tab_content' -%}
+        {%- if product.description != blank -%}
+          <div class="product-form__tab rte" {{ block.shopify_attributes }}>                        
+            <div class="tab-title-wrapper">
+              <p class="tab-title">{{- block.settings.tab_title -}}</p>
+              <span class="custom-rotate-icon-c"></span>
+            </div>
+            <div class="tab-content-wrapper">
+              {{- block.settings.tab_content -}}
+            </div>
           </div>
-          </div>
-          </div>
-          </div>
-        {%- endif -%}
+        {%- endif -%}     
 
-          {%- when 'product_care' -%}
-        {%- if block.settings.product_care_value != blank -%}
-           <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-            <span>PRODUCT CARE</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-          <div class="product-form__description rte" {{ block.shopify_attributes }}>
-            {{- block.settings.product_care_value -}}
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      TEXT
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'text' -%}
+        {% if block.settings.text != blank %}
+          <div class="product-form__text" {{ block.shopify_attributes }}>
+            {{- block.settings.text -}}
           </div>
-          </div>
-          </div>
-          </div>
-        {%- endif -%}
-
-         {%- when 'product_sustainability' -%}
-        {%- if block.settings.product_sustainability_value != blank -%}
-           <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-            <span>SUSTAINABILITY</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-          <div class="product-form__description rte" {{ block.shopify_attributes }}>
-            {{- block.settings.product_sustainability_value -}}
-          </div>
-          </div>
-          </div>
-          </div>
-        {%- endif -%}
-
-         {%- when 'shipping_returns' -%}
-        {%- if block.settings.shipping_returns_value != blank -%}
-           <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-            <span>SHIPPING & RETURNS</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-          <div class="product-form__description rte" {{ block.shopify_attributes }}>
-            {{- block.settings.shipping_returns_value -}}
-          </div>
-          </div>
-          </div>
-          </div>
-        {%- endif -%}
+        {%- endif -%} 
 
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
@@ -437,9 +383,9 @@
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
       {%- when 'capsule_button'-%}
-      {%- if product.metafields.capsule.isCapsule -%}
-          {%- render 'capsule-button', product: product -%}
-      {%- endif -%}
+        {%- if product.metafields.capsule.isCapsule -%}
+            {%- render 'capsule-button', product: product -%}
+        {%- endif -%}
       {%- when 'buy_buttons' -%}
         {%- if request.page_type != 'password' -%}
           <div class="product-form__buy-buttons" {{ block.shopify_attributes }}>
@@ -480,96 +426,6 @@
             {%- render 'store-availability', product_variant: product.selected_or_first_available_variant -%}
           </store-pickup>
         {%- endif -%}
-        {%- when 'features' -%}
-        <div class="features-wrapper-custom">
-        <div class="show-hide-wrapper" show="false">
-        <div class="title-icon-wrapper-show-hide">
-            <span>FEATURES</span>
-            <span class="custom-rotate-icon-c"></span>
-        </div>
-        <div class="show-hide-inner">
-        <div class="slider-product-custom">
-          <p>Fit</p>
-          <div class="line-feature-custom">
-            <span class="{%- if product.metafields.features.fit == 1 -%} dot-1  dot-active {%- else -%} dot-1 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.fit == 2 -%} dot-2  dot-active {%- else -%} dot-2 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.fit == 3 -%} dot-3  dot-active {%- else -%} dot-3 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.fit == 4 -%} dot-4  dot-active {%- else -%} dot-4 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.fit == 5 -%} dot-5  dot-active {%- else -%} dot-5 {%- endif -%}"></span>
-          </div>
-          <div class="horizontal-info-feature-c">
-          <span class="{%- if product.metafields.features.fit == 1 -%} dot-text-active {%- endif -%}">Relaxed fit</span>
-          <span class="{%- if product.metafields.features.fit == 3 -%} dot-text-active {%- endif -%}">Medium fit</span>
-          <span class="{%- if product.metafields.features.fit == 5 -%} dot-text-active {%- endif -%}">Tight fit</span>
-          </div>
-        </div>
-
-         <div class="slider-product-custom">
-          <p>Thickness</p>
-          <div class="line-feature-custom">
-            <span class="{%- if product.metafields.features.thickness == 1 -%} dot-1  dot-active {%- else -%} dot-1 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.thickness == 2 -%} dot-2  dot-active {%- else -%} dot-2 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.thickness == 3 -%} dot-3  dot-active {%- else -%} dot-3 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.thickness == 4 -%} dot-4  dot-active {%- else -%} dot-4 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.thickness == 5 -%} dot-5  dot-active {%- else -%} dot-5 {%- endif -%}"></span>
-          </div>
-          <div class="horizontal-info-feature-c">
-          <span class="{%- if product.metafields.features.thickness == 1 -%} dot-text-active {%- endif -%}">Thin</span>
-          <span class="{%- if product.metafields.features.thickness == 3 -%} dot-text-active {%- endif -%}">Medium</span>
-          <span class="{%- if product.metafields.features.thickness == 5 -%} dot-text-active {%- endif -%}">Thick</span>
-          </div>
-        </div>
-
-         <div class="slider-product-custom">
-          <p>Opacity</p>
-          <div class="line-feature-custom">
-            <span class="{%- if product.metafields.features.opacity == 1 -%} dot-1  dot-active {%- else -%} dot-1 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.opacity == 2 -%} dot-2  dot-active {%- else -%} dot-2 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.opacity == 3 -%} dot-3  dot-active {%- else -%} dot-3 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.opacity == 4 -%} dot-4  dot-active {%- else -%} dot-4 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.opacity == 5 -%} dot-5  dot-active {%- else -%} dot-5 {%- endif -%}"></span>
-          </div>
-          <div class="horizontal-info-feature-c">
-          <span class="{%- if product.metafields.features.opacity == 1 -%} dot-text-active {%- endif -%}">Opaque</span>
-          <span class="{%- if product.metafields.features.opacity == 3 -%} dot-text-active {%- endif -%}">Medium</span>
-          <span class="{%- if product.metafields.features.opacity == 5 -%} dot-text-active {%- endif -%}">Transparent</span>
-          </div>
-        </div>
-
-         <div class="slider-product-custom">
-          <p>Wrinkle prone</p>
-          <div class="line-feature-custom">
-            <span class="{%- if product.metafields.features.wrinkle_prone == 1 -%} dot-1  dot-active {%- else -%} dot-1 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.wrinkle_prone == 2 -%} dot-2  dot-active {%- else -%} dot-2 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.wrinkle_prone == 3 -%} dot-3  dot-active {%- else -%} dot-3 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.wrinkle_prone == 4 -%} dot-4  dot-active {%- else -%} dot-4 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.wrinkle_prone == 5 -%} dot-5  dot-active {%- else -%} dot-5 {%- endif -%}"></span>
-          </div>
-          <div class="horizontal-info-feature-c">
-          <span class="{%- if product.metafields.features.wrinkle_prone == 1 -%} dot-text-active {%- endif -%}">Wrinkle prone</span>
-          <span class="{%- if product.metafields.features.wrinkle_prone == 3 -%} dot-text-active {%- endif -%}">Medium</span>
-          <span class="{%- if product.metafields.features.wrinkle_prone == 5 -%} dot-text-active {%- endif -%}">Wrinkle resistant</span>
-          </div>
-        </div>
-
-         <div class="slider-product-custom">
-          <p>Ease of drying</p>
-          <div class="line-feature-custom">
-            <span class="{%- if product.metafields.features.ease_of_drying == 1 -%} dot-1  dot-active {%- else -%} dot-1 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.ease_of_drying == 2 -%} dot-2  dot-active {%- else -%} dot-2 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.ease_of_drying == 3 -%} dot-3  dot-active {%- else -%} dot-3 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.ease_of_drying == 4 -%} dot-4  dot-active {%- else -%} dot-4 {%- endif -%}"></span>
-            <span class="{%- if product.metafields.features.ease_of_drying == 5 -%} dot-5  dot-active {%- else -%} dot-5 {%- endif -%}"></span>
-          </div>
-          <div class="horizontal-info-feature-c">
-          <span class="{%- if product.metafields.features.ease_of_drying == 1 -%} dot-text-active {%- endif -%}">Dries slowly</span>
-          <span class="{%- if product.metafields.features.ease_of_drying == 3 -%} dot-text-active {%- endif -%}">Slightly Textured</span>
-          <span class="{%- if product.metafields.features.ease_of_drying == 5 -%} dot-text-active {%- endif -%}">Dries quickly</span>
-          </div>
-        </div>
-        </div>
-        </div>
-        </div>
     {%- endcase -%}
   {%- endfor -%}
 </div>
