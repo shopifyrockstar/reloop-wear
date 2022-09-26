@@ -785,7 +785,7 @@ function ShowMore(showChar, element){
 }
 
 $('.has-show-more').each(function() {
-  var showChar = 350;  // How many characters are shown by default
+  var showChar = 550;  // How many characters are shown by default
   var element = $(this);
   ShowMore(showChar, element);
 });
@@ -815,4 +815,38 @@ $('.tab-title-wrapper').click(function(){
   $(this).closest(".product-form__tab").find('.tab-content-wrapper').stop().slideUp();
   $(this).closest(".product-form__tab.active").find('.tab-content-wrapper').stop().slideDown();
   return false;
+});
+
+$('.size-chart-title').click(function(){
+  $('.modal-wrapper').addClass('active');
+})
+$('.modal-close').click(function(){
+  $('.modal-wrapper').removeClass('active');
+})
+
+$('.tabs-wrapper .title-wrapper .tab-title').click(function(){
+  $(this).siblings().removeClass('active');
+  $(this).addClass('active');
+  var target_class_name = $(this).attr('id');
+  $('.individual-tab-content-wrapper').removeClass('active');
+  $('.' + target_class_name).addClass('active');
+})
+
+// $('.switch-input').each(function () {
+//   if($(this).is(':checked')){
+//     console.log("yes, checked");
+//   }else{
+//     console.log("no, unchecked");
+//   }  
+// });
+
+
+$('.switch-input').change(function() {
+  if(this.checked) {
+    $('.centi-table').addClass('active');
+    $('.inch-table').removeClass('active');
+  }else{
+    $('.centi-table').removeClass('active');
+    $('.inch-table').addClass('active');
+  }
 });

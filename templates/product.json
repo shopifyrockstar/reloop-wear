@@ -26,7 +26,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": false
+            "show_payment_button": true
           }
         },
         "98134ace-f185-4226-87ac-b9b1499163d6": {
@@ -52,7 +52,7 @@
           "type": "tab_content",
           "settings": {
             "tab_title": "product care",
-            "tab_content": "<p>{{ product.metafields.custom.product_care.value }}<\/p>"
+            "tab_content": "<p>{{ product.metafields.custom.product_care | metafield_tag }}<\/p>"
           }
         },
         "f5bd11ad-0245-4deb-ab25-e6ef79749fba": {
@@ -192,6 +192,37 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "166368589355dc98b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663685893e5a2d992-0": {
+          "type": "item",
+          "settings": {
+            "image": "{{ product.metafields.custom.fourth_image_with_text_image.value }}",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "",
+            "content": "<p>{{ product.metafields.custom.fourth_image_with_text_text.value }}<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663685893e5a2d992-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "settings": {
@@ -206,6 +237,21 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "16636867454665520a": {
+      "type": "newsletter-custom",
+      "settings": {
+        "subheading_left": "What we stand for",
+        "content_left": "Rethinking the way we pack, the way we travel, and the way we dress. We create travel capsule wardrobes for conscious travellers, just like you. Designed with circularity at every step of the journey. Because fashion shouldn’t cost us the Earth. #LetsReloop.",
+        "button_title": "Our story",
+        "button_url": "shopify:\/\/pages\/manifesto",
+        "subheading": "EVERY BIG JOURNEY STARTS WITH A TINY STEP",
+        "one-section": "Relooped Community",
+        "two-section": "Exclusive Offers",
+        "three-section": "Inspirations",
+        "content": "Join our community of conscious travellers and get all the relooped news, plus exclusive offers and inspiration delivered straight to your inbox.",
+        "subheading_2": "NO SPAM, we promise. Your mailbox, your choice:"
+      }
     }
   },
   "order": [
@@ -213,7 +259,9 @@
     "166335087062989ec0",
     "1663684794770d2d75",
     "1663685337d275832e",
+    "166368589355dc98b5",
     "product-content",
-    "164060058351254c21"
+    "164060058351254c21",
+    "16636867454665520a"
   ]
 }
