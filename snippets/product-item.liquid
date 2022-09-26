@@ -15,17 +15,17 @@
   {%- if product.metafields.recycle.size >= 1-%}
   <div class="product-recycle-images">
     {%- if product.metafields.recycle.picture_one != nil -%}
-          <div class="picture-recycle-img">
+          <div class="picture-recycle-img first-icon">
           <img class="img-recycle" src="{{product.metafields.recycle.picture_one | file_url}}" />
           </div>
     {%- endif -%}
      {%- if product.metafields.recycle.picture_two != nil -%}
-           <div class="picture-recycle-img">
+           <div class="picture-recycle-img second-icon">
           <img class="img-recycle" src="{{product.metafields.recycle.picture_two | file_url}}" />
           </div>
     {%- endif -%}
      {%- if product.metafields.recycle.picture_three != nil -%}
-           <div class="picture-recycle-img">
+           <div class="picture-recycle-img third-icon">
           <img class="img-recycle" src="{{product.metafields.recycle.picture_three | file_url}}" />
           </div>
     {%- endif -%}
