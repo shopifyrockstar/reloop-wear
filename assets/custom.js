@@ -832,15 +832,6 @@ $('.tabs-wrapper .title-wrapper .tab-title').click(function(){
   $('.' + target_class_name).addClass('active');
 })
 
-// $('.switch-input').each(function () {
-//   if($(this).is(':checked')){
-//     console.log("yes, checked");
-//   }else{
-//     console.log("no, unchecked");
-//   }  
-// });
-
-
 $('.switch-input').change(function() {
   if(this.checked) {
     $('.centi-table').addClass('active');
@@ -850,3 +841,21 @@ $('.switch-input').change(function() {
     $('.inch-table').addClass('active');
   }
 });
+
+$('.modal-slider-wrapper').slick({
+  centerMode: true,
+  centerPadding: '100px',
+  infinite: true,
+  arrows: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  prevArrow:'<img class="arrow-prev arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/prev.png?v=1664300195">',
+  nextArrow:'<img class="arrow-next arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/next.png?v=1664300208">'  
+});
+
+$('.product__zoom-button').click(function(){
+  $('#myModal').addClass('active');
+})
+$('#myModal .close').click(function(){
+  $('#myModal').removeClass('active');
+})
