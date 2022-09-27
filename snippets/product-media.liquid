@@ -129,7 +129,12 @@
       </flickity-carousel>
 
       {%- if section.settings.enable_image_zoom -%}
-        <button {% if selected_media.media_type != 'image' %}hidden{% endif %} is="toggle-button" aria-controls="product-{{ section.id }}-{{ product.id }}-zoom" aria-expanded="false" class="tap-area product__zoom-button">
+        {% comment %} disabled original zoom button {% endcomment %}
+        {% comment %} <button {% if selected_media.media_type != 'image' %}hidden{% endif %} is="toggle-button" aria-controls="product-{{ section.id }}-{{ product.id }}-zoom" aria-expanded="false" class="tap-area product__zoom-button">
+          <span class="visually-hidden">{{ 'product.general.zoom' | t }}</span>
+          {%- render 'icon' with 'image-zoom' -%}
+        </button> {% endcomment %}
+        <button class="tap-area product__zoom-button">
           <span class="visually-hidden">{{ 'product.general.zoom' | t }}</span>
           {%- render 'icon' with 'image-zoom' -%}
         </button>
@@ -208,8 +213,8 @@
       </flickity-controls>
     {%- endif -%}
 
-    {%- if section.settings.enable_image_zoom -%}
-      {%- comment -%}This code MUST NOT be changed, and is part of the PhotoSwipe required interface{%- endcomment -%}
+    
+    {%- if section.settings.enable_image_zoom -%}      
       <product-image-zoom product-handle="{{ product.handle }}" id="product-{{ section.id }}-{{ product.id }}-zoom" class="pswp" tabindex="-1" role="dialog">
         <div class="pswp__bg"></div>
 
@@ -249,5 +254,6 @@
         </div>
       </product-image-zoom>
     {%- endif -%}
+    
   </product-media>
 {%- endif -%}

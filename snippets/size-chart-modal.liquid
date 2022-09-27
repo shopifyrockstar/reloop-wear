@@ -1,3 +1,4 @@
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <div class="modal-wrapper">
     <div class="modal-inner-wrapper">
         <div class="modal-title-wrapper">
@@ -127,18 +128,132 @@
                 </div>
                 <div class="tab2 individual-tab-content-wrapper fit-guide">
                     <div class="title-unit-wrapper">
-                        <p>Everyday reversible dress is a relazed fit.</p>
-                    </div>         
+                        <p>Everyday reversible dress is a relaxed fit.</p>
+                    </div>
+                    <div class="modal-slider-wrapper">
+                        {% assign slider_collection = collections['womens'] %}
+                        {% for product in slider_collection.products limit: 4 %}
+                            <div class="modal-product-wrapper">
+                                <a href="{{ product.url }}" class="modal-product-link">
+                                    <img src="{{ product.selected_or_first_available_variant.image | default: product.featured_media | img_url: '150x' }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="bottom-content-wrapper">
+                        <p>Relaxed fit</p>
+                        <p>Intended to drape loosely on the body.</p>
+                    </div>
                 </div>
                 <div class="tab3 individual-tab-content-wrapper how-measure">
-                    <div class="title-unit-wrapper">
-                        <p>How to measure</p>
-                    </div>         
+                    <div class="content-wrapper">
+                        <div class="left-content-wrapper">
+                            <h3>How to measure</h3>
+                            <div class="left-content-item-wrapper">
+                                <h5>1. Neck</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>
+                            <div class="left-content-item-wrapper">
+                                <h5>2. Sleeve</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>    
+                            <div class="left-content-item-wrapper">
+                                <h5>3. Chest/Bust</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>
+                            <div class="left-content-item-wrapper">
+                                <h5>4. Under bust</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>
+                            <div class="left-content-item-wrapper">
+                                <h5>5. Waist</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>
+                            <div class="left-content-item-wrapper">
+                                <h5>6. Hip</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum in porttitor id lacus sodales non.</p>
+                            </div>
+                        </div>    
+                        <div class="right-content-wrapper">
+                            <img src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/Group_282.png?v=1664301524">
+                        </div>    
+                    </div>
                 </div>
                 <div class="tab4 individual-tab-content-wrapper by-country">
                     <div class="title-unit-wrapper">
                         <p>Women's International</p>
-                    </div>         
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="table">                            
+                            <thead class="table-column-container">
+                                <tr>
+                                    <td class="table-column">Alpha size</td>
+                                    <td class="table-column">Numeric Size</td>
+                                    <td class="table-column">Denim size</td>
+                                    <td class="table-column">EU</td>
+                                    <td class="table-column">JP</td>
+                                    <td class="table-column">AU</td>
+                                    <td class="table-column">UK</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row-container">
+                                    <td class="table-row">XXS</td>
+                                    <td class="table-row">0 (000)</td>
+                                    <td class="table-row">30.5</td>
+                                    <td class="table-row">23</td>
+                                    <td class="table-row"></td>
+                                    <td class="table-row"></td>
+                                    <td class="table-row"></td>
+                                </tr>
+                                <tr class="table-row-container">
+                                    <td class="table-row">XS</td>
+                                    <td class="table-row">00 - 0</td>
+                                    <td class="table-row">31.5 - 32.5</td>
+                                    <td class="table-row">24 - 25</td>
+                                    <td class="table-row">30 - 32</td>
+                                    <td class="table-row">30 - 32</td>
+                                    <td class="table-row">30 - 32</td>
+                                </tr>
+                                <tr class="table-row-container">
+                                    <td class="table-row">S</td>
+                                    <td class="table-row">2 - 4</td>
+                                    <td class="table-row">26 - 27</td>
+                                    <td class="table-row">34 - 36</td>
+                                    <td class="table-row">34 - 36</td>
+                                    <td class="table-row">34 - 36</td>
+                                    <td class="table-row">34 - 36</td>
+                                </tr>
+                                <tr class="table-row-container">
+                                    <td class="table-row">M</td>
+                                    <td class="table-row">6 - 8</td>
+                                    <td class="table-row">28 - 29</td>
+                                    <td class="table-row">38 - 40</td>
+                                    <td class="table-row">38 - 40</td>
+                                    <td class="table-row">38 - 40</td>
+                                    <td class="table-row">38 - 40</td>
+                                </tr>
+                                <tr class="table-row-container">
+                                    <td class="table-row">L</td>
+                                    <td class="table-row">10 - 12</td>
+                                    <td class="table-row">30 - 31</td>
+                                    <td class="table-row">42 - 44</td>
+                                    <td class="table-row">42 - 44</td>
+                                    <td class="table-row">42 - 44</td>
+                                    <td class="table-row">42 - 44</td>
+                                </tr>
+                                <tr class="table-row-container">
+                                    <td class="table-row">XL</td>
+                                    <td class="table-row">14 - 16</td>
+                                    <td class="table-row">32 - 33</td>
+                                    <td class="table-row">46 - 48</td>
+                                    <td class="table-row">46 - 48</td>
+                                    <td class="table-row">46 - 48</td>
+                                    <td class="table-row">46 - 48</td>
+                                </tr>                            
+                            </tbody>                            
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>        
