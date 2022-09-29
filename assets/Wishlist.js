@@ -621,7 +621,7 @@ const updateWishlist = (handle, text, isButton) => {
       );
     }
     if (isButton === true) {
-      showAlert("Product successfully added to My Capsule", true);
+      showAlert("Product successfully added to My Capsule", true);      
       text.innerHTML = "Added to My capsule";
     }
   } else {

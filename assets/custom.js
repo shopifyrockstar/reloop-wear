@@ -830,6 +830,9 @@ $('.tabs-wrapper .title-wrapper .tab-title').click(function(){
   var target_class_name = $(this).attr('id');
   $('.individual-tab-content-wrapper').removeClass('active');
   $('.' + target_class_name).addClass('active');
+  if ($(this).text().indexOf('Fit Guide') != -1 ){
+    $('.' + target_class_name).find('.slick-arrow.arrow-next').trigger('click');
+  }
 })
 
 $('.switch-input').change(function() {
