@@ -26,7 +26,8 @@
                         </div>                        
                     </div>
                     <div class="table-wrapper inch-table active">
-                        <table class="table">                            
+                        <img src="{{ 'size-inch.png' | asset_img_url: 'master' }}">
+                        {% comment %} <table class="table">                            
                             <thead class="table-column-container">
                                 <tr>
                                     <td class="table-column"></td>
@@ -73,10 +74,11 @@
                                     <td class="table-row">38 - 40</td>
                                 </tr>                            
                             </tbody>                            
-                        </table>
+                        </table> {% endcomment %}
                     </div>     
                     <div class="table-wrapper centi-table">
-                        <table class="table">                            
+                        <img src="{{ 'size-cm.png' | asset_img_url: 'master' }}">
+                        {% comment %} <table class="table">                            
                             <thead class="table-column-container">
                                 <tr>
                                     <td class="table-column"></td>
@@ -123,27 +125,60 @@
                                     <td class="table-row">11 - 11</td>
                                 </tr>                            
                             </tbody>                            
-                        </table>
+                        </table> {% endcomment %}
                     </div>     
                 </div>
-                <div class="tab2 individual-tab-content-wrapper fit-guide">
-                    <div class="title-unit-wrapper">
-                        <p>Everyday reversible dress is a relaxed fit.</p>
-                    </div>
+                <div class="tab2 individual-tab-content-wrapper fit-guide">                    
                     <div class="modal-slider-wrapper">
-                        {% assign slider_collection = collections['womens'] %}
+                        {% comment %} {% assign slider_collection = collections['womens'] %}
                         {% for product in slider_collection.products limit: 4 %}
                             <div class="modal-product-wrapper">
                                 <a href="{{ product.url }}" class="modal-product-link">
                                     <img src="{{ product.selected_or_first_available_variant.image | default: product.featured_media | img_url: '150x' }}">
                                 </a>
                             </div>
-                        {% endfor %}
+                        {% endfor %} {% endcomment %}
+                        <div class="modal-product-wrapper">
+                            <a href="/products/ramble-t-shirt" class="modal-product-link">
+                                <div class="title-unit-wrapper">
+                                    <p>Everyday reversible dress is a relaxed fit.</p>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/image_144-1_46f149ad-60b3-4e4d-9448-3a007c92591e.png?v=1664819377">
+                                <div class="bottom-content-wrapper">
+                                    <p>Relaxed fit</p>
+                                    <p>Intended to drape loosely on the body.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal-product-wrapper">
+                            <a href="/products/slothful-t-shirt-for-him-and-her" class="modal-product-link">
+                                <div class="title-unit-wrapper">
+                                    <p>Everyday fit.</p>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/image_144-1_46f149ad-60b3-4e4d-9448-3a007c92591e.png?v=1664819377">
+                                <div class="bottom-content-wrapper">
+                                    <p>Blah Blah</p>
+                                    <p>Blah BLah body.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal-product-wrapper">
+                            <a href="/products/airy-cover-up-blouse" class="modal-product-link">
+                                <div class="title-unit-wrapper">
+                                    <p>Everyday Everyday Everyday fit.</p>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/image_144-1_46f149ad-60b3-4e4d-9448-3a007c92591e.png?v=1664819377">
+                                <div class="bottom-content-wrapper">
+                                    <p>Blah Blah Blah Blah Blah Blah</p>
+                                    <p>Blah BLah body Blah BLah body.</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bottom-content-wrapper">
+                    {% comment %} <div class="bottom-content-wrapper">
                         <p>Relaxed fit</p>
                         <p>Intended to drape loosely on the body.</p>
-                    </div>
+                    </div> {% endcomment %}
                 </div>
                 <div class="tab3 individual-tab-content-wrapper how-measure">
                     <div class="content-wrapper">

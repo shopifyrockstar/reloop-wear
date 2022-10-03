@@ -621,12 +621,17 @@ const updateWishlist = (handle, text, isButton) => {
       );
     }
     if (isButton === true) {
-      showAlert("Product successfully added to My Capsule", true);      
+      showAlert("Product successfully added to My Capsule", true);  
+      console.log('product added to the wishlist');
+      // $('<div class="button-circle-filled"></div>').insertBefore(".wishlist-title");
       text.innerHTML = "Added to My capsule";
     }
+
   } else {
     if (isButton === true) {
       showAlert("Product successfully removed from My Capsule", false);
+      console.log('removed from the wishlist');
+      // $('.button-circle-filled').remove();
       text.innerHTML = "Add to My Capsule";
     }
     if (wishlist.length <= 12) {

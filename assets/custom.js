@@ -130,26 +130,28 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
+
   var iconListeners = document.querySelectorAll(".picture-recycle-img");
   if (iconListeners.length > 1) {
     iconListeners.forEach((icon) => {
-      let helper = document.createElement("span");
-      helper.innerHTML = "Product created from recyclable materials";
-      helper.classList = "remove-helper-view";
-      helper.style.left = "-148px";
-      helper.style.width = "140px";
-      helper.style.top = "-8px";
-      icon.append(helper);
+      // let helper = document.createElement("span");
+      // helper.innerHTML = "Product created from recyclable materials";
+      // helper.classList = "remove-helper-view";
+      // helper.style.left = "-148px";
+      // helper.style.width = "140px";
+      // helper.style.top = "-8px";
+      // icon.append(helper);
       icon.addEventListener("mouseenter", (e) => {
-        helper.style.opacity = 1;
-        console.log("entered");
+        // helper.style.opacity = 1;
+        icon.classList.add("active");
       });
       icon.addEventListener("mouseleave", (e) => {
-        helper.style.opacity = 0;
-        console.log("left");
+        // helper.style.opacity = 0;
+        icon.classList.remove("active");
       });
     });
   }
+
   let customCollections = document.querySelectorAll(
     ".custom-collection-wrapper"
   );
@@ -725,6 +727,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+
 const filter = (capsules, capsuleSizeData, capsulesParent) => {
   console.log("capsule sizes", capsuleSizeData);
   let filtered = [...capsules].filter((capsule) => {
@@ -846,15 +849,27 @@ $('.switch-input').change(function() {
 });
 
 $('.modal-slider-wrapper').slick({
-  centerMode: true,
-  centerPadding: '100px',
+  // centerMode: true,
+  // centerPadding: '100px',
   infinite: true,
   arrows: true,
-  slidesToShow: 2,
+  slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow:'<img class="arrow-prev arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/prev.png?v=1664300195">',
   nextArrow:'<img class="arrow-next arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/next.png?v=1664300208">'  
 });
+
+if( $(window).width() < 751 ){
+  $('.tabs-wrapper .title-wrapper').slick({
+    infinite: true,
+    arrows: true,  
+    prevArrow:'<img class="arrow-prev arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/prev.png?v=1664300195">',
+    nextArrow:'<img class="arrow-next arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/next.png?v=1664300208">',
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  });
+}
+
 
 $('.product__zoom-button').click(function(){
   $('#myModal').addClass('active');
