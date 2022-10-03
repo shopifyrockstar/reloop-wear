@@ -52,7 +52,7 @@
           "type": "tab_content",
           "settings": {
             "tab_title": "product care",
-            "tab_content": "<p>{{ product.metafields.custom.product_care | metafield_tag }}<\/p>"
+            "tab_content": "<p>{{ product.metafields.custom.product_care.value }}<\/p>"
           }
         },
         "f5bd11ad-0245-4deb-ab25-e6ef79749fba": {
