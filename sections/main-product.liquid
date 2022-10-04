@@ -27,6 +27,48 @@
         {%- render 'product-media', product: product -%}
         {%- render 'product-info', product: product, update_url: true -%}
       </div>
+
+      {% comment %} modal {% endcomment %}
+
+      {%- if section.settings.enable_image_zoom -%}
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">
+            {% render 'icon', icon:'nav-arrow-left' %}
+          </a>
+          <a class="next" onclick="plusSlides(1)">
+            {% render 'icon', icon:'nav-arrow-right' %}
+          </a>
+          <div class="modal-inner-wrapper">
+            <div class="modal-content">
+              <div class="main-image"> 
+                {%- for media in product.media -%}
+                  {%- case media.media_type -%}
+                    {%- when 'image' -%}       
+                      <div class="mySlides">         
+                        <img src="{{ media.src | img_url:'master' }}">                
+                      </div>  
+                  {%- endcase -%}
+                {% endfor %}
+              </div>              
+            </div>
+            <!-- Thumbnail image controls -->
+            <div class="thumb-image"> 
+              {%- for media in product.media -%}
+                {%- case media.media_type -%}
+                  {%- when 'image' -%}                
+                    <div class="column">
+                      <img class="demo" src="{{ media.src | img_url: 'master' }}" onclick="currentSlide({{ forloop.index }})" alt="{{media.alt}}">
+                    </div>
+                {%- endcase -%}
+              {% endfor %}
+            </div> 
+
+          </div>
+        </div>
+      {%- endif -%}
+
     </div>
   </section>
 {%- else -%}
@@ -48,7 +90,7 @@
       <div class="quick-buy-product__info {% if template.suffix == 'quick-buy-popover' %}text--small{% endif %}">
         <product-meta form-id="product-form-{{ section.id }}-{{ product.id }}" unit-price-class="text--xsmall" class="product-item-meta">
     
-<!--           {%- if section.settings.show_vendor -%}
+          {%- if section.settings.show_vendor -%}
             {%- assign vendor_handle = product.vendor | handle -%}
             {%- assign collection_for_vendor = collections[vendor_handle] -%}
 
@@ -57,7 +99,7 @@
             {%- else -%}
               <a href="{{ product.vendor | url_for_vendor }}" class="product-item-meta__vendor heading {% if template.suffix == 'quick-buy-drawer' %}heading--small{% else %}heading--xsmall{% endif %}">{{ product.vendor }}</a>
             {%- endunless -%}
-          {%- endif -%} -->
+          {%- endif -%}
 
           <a href="{{ product.url }}" class="product-item-meta__title">{{ product.title }}</a>
 
@@ -264,63 +306,6 @@
       "name": "Description",
       "limit": 1
     },
-     {
-      "type": "materials_manufacturer",
-      "name": "Materials & Manufacturer",
-      "settings":[
-          {
-          "type": "richtext",
-          "id": "mat_text",
-          "label": "Body Fit Left Text",
-          "default": "<p>Tight Fit</p>"
-        }
-      ]
-    },
-      {
-      "type": "shipping_returns",
-      "name": "Shipping & Returns",
-      "limit": 8,
-      "settings":[
-        {
-          "type": "richtext",
-          "id": "shipping_returns_value",
-          "label": "Shipping and Returns Text",
-          "default": "<p>Lorem ipsum dotor amet</p>"
-        }
-      ]
-    },
-       {
-      "type": "product_care",
-      "name": "Product Care",
-      "limit": 8,
-      "settings":[  
-        {
-        "type": "liquid",
-        "id": "product_care_value",
-        "label": "Product Care Text",
-        "default": "<p>Lorem ipsum dotor amet</p>"
-      }
-    ]
-    },
-      {
-      "type": "product_sustainability",
-      "name": "Sustainability",
-      "limit": 8,
-      "settings":[
-        {
-          "type": "liquid",
-          "id": "product_sustainability_value",
-          "label": "Product Sustainability Text",
-          "default": "<p>Lorem ipsum dotor amet<p>"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "name": "Features",
-      "limit": 8,
-      "settings":[]
-    },
     {
       "type": "inventory",
       "name": "Inventory",
@@ -343,9 +328,25 @@
       "name": "Text",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
           "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "tab_content",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Tab content"
         }
       ]
     },
@@ -626,3 +627,47 @@
   ]
 }
 {% endschema %}
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  //document.getElementById("myModal").className = document.getElementById("myModal").className.replace(" active", "");  
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  //var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  //captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

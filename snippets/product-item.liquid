@@ -15,28 +15,21 @@
   {%- if product.metafields.recycle.size >= 1-%}
   <div class="product-recycle-images">
     {%- if product.metafields.recycle.picture_one != nil -%}
-          <div class="picture-recycle-img">
-          <img class="img-recycle" src="{{product.metafields.recycle.picture_one | file_url}}" />
+          <div class="picture-recycle-img first-icon">
+            <img class="img-recycle" src="{{product.metafields.recycle.picture_one | file_url}}" />
+            <span class="icon-tooltip">{{ product.metafields.recycle.picture_one_copy }}</span>
           </div>
     {%- endif -%}
      {%- if product.metafields.recycle.picture_two != nil -%}
-           <div class="picture-recycle-img">
-          <img class="img-recycle" src="{{product.metafields.recycle.picture_two | file_url}}" />
+          <div class="picture-recycle-img second-icon">
+            <img class="img-recycle" src="{{product.metafields.recycle.picture_two | file_url}}" />
+            <span class="icon-tooltip">{{ product.metafields.recycle.picture_two_copy }}</span>
           </div>
     {%- endif -%}
      {%- if product.metafields.recycle.picture_three != nil -%}
-           <div class="picture-recycle-img">
-          <img class="img-recycle" src="{{product.metafields.recycle.picture_three | file_url}}" />
-          </div>
-    {%- endif -%}
-     {%- if product.metafields.recycle.picture_four != nil -%}
-           <div class="picture-recycle-img">
-          <img class="img-recycle" src="{{product.metafields.recycle.picture_four | file_url}}" />
-          </div>
-    {%- endif -%}
-     {%- if product.metafields.recycle.picture_five != nil -%}
-           <div class="picture-recycle-img">
-          <img class="img-recycle" src="{{product.metafields.recycle.picture_five | file_url}}" />
+          <div class="picture-recycle-img third-icon">
+            <img class="img-recycle" src="{{product.metafields.recycle.picture_three | file_url}}" />
+            <span class="icon-tooltip">{{ product.metafields.recycle.picure_three_copy }}</span>
           </div>
     {%- endif -%}
   </div>

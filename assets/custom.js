@@ -130,26 +130,28 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
+
   var iconListeners = document.querySelectorAll(".picture-recycle-img");
   if (iconListeners.length > 1) {
     iconListeners.forEach((icon) => {
-      let helper = document.createElement("span");
-      helper.innerHTML = "Product created from recyclable materials";
-      helper.classList = "remove-helper-view";
-      helper.style.left = "-148px";
-      helper.style.width = "140px";
-      helper.style.top = "-8px";
-      icon.append(helper);
+      // let helper = document.createElement("span");
+      // helper.innerHTML = "Product created from recyclable materials";
+      // helper.classList = "remove-helper-view";
+      // helper.style.left = "-148px";
+      // helper.style.width = "140px";
+      // helper.style.top = "-8px";
+      // icon.append(helper);
       icon.addEventListener("mouseenter", (e) => {
-        helper.style.opacity = 1;
-        console.log("entered");
+        // helper.style.opacity = 1;
+        icon.classList.add("active");
       });
       icon.addEventListener("mouseleave", (e) => {
-        helper.style.opacity = 0;
-        console.log("left");
+        // helper.style.opacity = 0;
+        icon.classList.remove("active");
       });
     });
   }
+
   let customCollections = document.querySelectorAll(
     ".custom-collection-wrapper"
   );
@@ -323,22 +325,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //show hide events
-  let showHideButtons = document.querySelectorAll(".show-hide-wrapper");
-  showHideButtons.forEach((showHideButton) => {
-    console.log("btb", showHideButton);
-    let inner = showHideButton.querySelector(".show-hide-inner");
-    let icon = showHideButton.querySelector(".custom-rotate-icon-c");
-    var isActive = false;
-    console.log("btb", showHideButton, inner);
-    showHideButton.addEventListener("click", (e) => {
-      console.log("clicked show hide");
-      isActive = !isActive;
-      icon.style.transform = isActive ? "rotate(0deg)" : "rotate(180deg)";
-      inner.style.animation = isActive
-        ? "0.3s show-content-c forwards"
-        : "0.3s hide-content-c forwards";
-    });
-  });
+  // let showHideButtons = document.querySelectorAll(".show-hide-wrapper");
+  // showHideButtons.forEach((showHideButton) => {
+  //   console.log("btb", showHideButton);
+  //   let inner = showHideButton.querySelector(".show-hide-inner");
+  //   let icon = showHideButton.querySelector(".custom-rotate-icon-c");
+  //   var isActive = false;
+  //   console.log("btb", showHideButton, inner);
+  //   showHideButton.addEventListener("click", (e) => {
+  //     console.log("clicked show hide");
+  //     isActive = !isActive;
+  //     icon.style.transform = isActive ? "rotate(0deg)" : "rotate(180deg)";
+  //     inner.style.animation = isActive
+  //       ? "0.3s show-content-c forwards"
+  //       : "0.3s hide-content-c forwards";
+  //   });
+  // });
+
   try {
     // banner icons oneMouseEnterEvent
     let mouseEventsBanner = document.querySelectorAll(
@@ -724,6 +727,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+
 const filter = (capsules, capsuleSizeData, capsulesParent) => {
   console.log("capsule sizes", capsuleSizeData);
   let filtered = [...capsules].filter((capsule) => {
@@ -766,3 +770,110 @@ function setNewsletterValue() {
   }
   newsletterMain.value = values;
 }
+
+
+var ellipsestext = "...";
+var moretext = "Show more >";
+var lesstext = "Show less";
+
+function ShowMore(showChar, element){
+  var content = element.html();
+
+  if(content.length > showChar) {
+      var c = content.substr(0, showChar);
+      var h = content.substr(showChar, content.length - showChar);
+      var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+      element.html(html);
+  }
+}
+
+$('.has-show-more').each(function() {
+  var showChar = 550;  // How many characters are shown by default
+  var element = $(this);
+  ShowMore(showChar, element);
+});
+$('.size-chart-content').each(function() {
+  var showChar = 80;  // How many characters are shown by default
+  var element = $(this);
+  ShowMore(showChar, element);
+});
+
+$(".morelink").click(function(){
+    if($(this).hasClass("less")) {
+        $(this).removeClass("less");
+        $(this).html(moretext);
+    } else {
+        $(this).addClass("less");
+        $(this).html(lesstext);
+    }
+    $(this).parent().prev().toggle();
+    $(this).prev().toggle();
+    return false;
+});
+
+
+$('.tab-title-wrapper').click(function(){
+  $(this).closest(".product-form__tab").toggleClass('active');
+  // $(this).closest(".product-form__tab").siblings().removeClass('active'); 
+  $(this).closest(".product-form__tab").find('.tab-content-wrapper').stop().slideUp();
+  $(this).closest(".product-form__tab.active").find('.tab-content-wrapper').stop().slideDown();
+  return false;
+});
+
+$('.size-chart-title').click(function(){
+  $('.modal-wrapper').addClass('active');
+})
+$('.modal-close').click(function(){
+  $('.modal-wrapper').removeClass('active');
+})
+
+$('.tabs-wrapper .title-wrapper .tab-title').click(function(){
+  $(this).siblings().removeClass('active');
+  $(this).addClass('active');
+  var target_class_name = $(this).attr('id');
+  $('.individual-tab-content-wrapper').removeClass('active');
+  $('.' + target_class_name).addClass('active');
+  if ($(this).text().indexOf('Fit Guide') != -1 ){
+    $('.' + target_class_name).find('.slick-arrow.arrow-next').trigger('click');
+  }
+})
+
+$('.switch-input').change(function() {
+  if(this.checked) {
+    $('.centi-table').addClass('active');
+    $('.inch-table').removeClass('active');
+  }else{
+    $('.centi-table').removeClass('active');
+    $('.inch-table').addClass('active');
+  }
+});
+
+$('.modal-slider-wrapper').slick({
+  // centerMode: true,
+  // centerPadding: '100px',
+  infinite: true,
+  arrows: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:'<img class="arrow-prev arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/prev.png?v=1664300195">',
+  nextArrow:'<img class="arrow-next arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/next.png?v=1664300208">'  
+});
+
+if( $(window).width() < 751 ){
+  $('.tabs-wrapper .title-wrapper').slick({
+    infinite: true,
+    arrows: true,  
+    prevArrow:'<img class="arrow-prev arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/prev.png?v=1664300195">',
+    nextArrow:'<img class="arrow-next arrow-button" src="https://cdn.shopify.com/s/files/1/0381/8707/3668/files/next.png?v=1664300208">',
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  });
+}
+
+
+$('.product__zoom-button').click(function(){
+  $('#myModal').addClass('active');
+})
+$('#myModal .close').click(function(){
+  $('#myModal').removeClass('active');
+})
